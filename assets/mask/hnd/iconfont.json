@@ -1,0 +1,191 @@
+{
+  "id": "4325194",
+  "name": "HND",
+  "font_family": "figure",
+  "css_prefix_text": "figure-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "40193664",
+      "name": "STITCHING-1",
+      "font_class": "STITCHING-1",
+      "unicode": "e762",
+      "unicode_decimal": 59234
+    },
+    {
+      "icon_id": "40193663",
+      "name": "STITCHING-3",
+      "font_class": "STITCHING-3",
+      "unicode": "e763",
+      "unicode_decimal": 59235
+    },
+    {
+      "icon_id": "40193662",
+      "name": "STITCHING-2",
+      "font_class": "STITCHING-2",
+      "unicode": "e764",
+      "unicode_decimal": 59236
+    },
+    {
+      "icon_id": "40176690",
+      "name": "PALM-1",
+      "font_class": "PALM-1",
+      "unicode": "e750",
+      "unicode_decimal": 59216
+    },
+    {
+      "icon_id": "40176645",
+      "name": "LEATHER_1-1",
+      "font_class": "LEATHER_1-1",
+      "unicode": "e74e",
+      "unicode_decimal": 59214
+    },
+    {
+      "icon_id": "40176644",
+      "name": "LEATHER_1-2",
+      "font_class": "LEATHER_1-2",
+      "unicode": "e74f",
+      "unicode_decimal": 59215
+    },
+    {
+      "icon_id": "38053562",
+      "name": "WEB-3",
+      "font_class": "WEB-3",
+      "unicode": "e6e4",
+      "unicode_decimal": 59108
+    },
+    {
+      "icon_id": "38053561",
+      "name": "WEB-1",
+      "font_class": "WEB-1",
+      "unicode": "e6e5",
+      "unicode_decimal": 59109
+    },
+    {
+      "icon_id": "38053560",
+      "name": "WEB-2",
+      "font_class": "WEB-2",
+      "unicode": "e6e6",
+      "unicode_decimal": 59110
+    },
+    {
+      "icon_id": "38053567",
+      "name": "WRIST_STRAP-1",
+      "font_class": "WRIST_STRAP-1",
+      "unicode": "e6e2",
+      "unicode_decimal": 59106
+    },
+    {
+      "icon_id": "38053566",
+      "name": "WRIST_STRAP-2",
+      "font_class": "WRIST_STRAP-2",
+      "unicode": "e6e3",
+      "unicode_decimal": 59107
+    },
+    {
+      "icon_id": "38053328",
+      "name": "FINGER_HOOD-1",
+      "font_class": "FINGER_HOOD-1",
+      "unicode": "e6d0",
+      "unicode_decimal": 59088
+    },
+    {
+      "icon_id": "38053327",
+      "name": "FINGER_HOOD-2",
+      "font_class": "FINGER_HOOD-2",
+      "unicode": "e6df",
+      "unicode_decimal": 59103
+    },
+    {
+      "icon_id": "38053322",
+      "name": "CROWN-2",
+      "font_class": "CROWN-2",
+      "unicode": "e6e0",
+      "unicode_decimal": 59104
+    },
+    {
+      "icon_id": "38053321",
+      "name": "CROWN-1",
+      "font_class": "CROWN-1",
+      "unicode": "e6e1",
+      "unicode_decimal": 59105
+    },
+    {
+      "icon_id": "38053347",
+      "name": "LACES-3",
+      "font_class": "LACES-3",
+      "unicode": "e6d1",
+      "unicode_decimal": 59089
+    },
+    {
+      "icon_id": "38053346",
+      "name": "LACES-1",
+      "font_class": "LACES-1",
+      "unicode": "e6dd",
+      "unicode_decimal": 59101
+    },
+    {
+      "icon_id": "38053345",
+      "name": "LACES-2",
+      "font_class": "LACES-2",
+      "unicode": "e6de",
+      "unicode_decimal": 59102
+    },
+    {
+      "icon_id": "38053416",
+      "name": "LOGO_COLOR-2",
+      "font_class": "LOGO_COLOR-2",
+      "unicode": "e6d3",
+      "unicode_decimal": 59091
+    },
+    {
+      "icon_id": "38053415",
+      "name": "LOGO_COLOR-1",
+      "font_class": "LOGO_COLOR-1",
+      "unicode": "e6da",
+      "unicode_decimal": 59098
+    },
+    {
+      "icon_id": "38053411",
+      "name": "LEATHER_1-3",
+      "font_class": "LEATHER_1-3",
+      "unicode": "e6db",
+      "unicode_decimal": 59099
+    },
+    {
+      "icon_id": "38053423",
+      "name": "PALM-3",
+      "font_class": "PALM-3",
+      "unicode": "e6d5",
+      "unicode_decimal": 59093
+    },
+    {
+      "icon_id": "38053421",
+      "name": "PALM-2",
+      "font_class": "PALM-2",
+      "unicode": "e6d9",
+      "unicode_decimal": 59097
+    },
+    {
+      "icon_id": "38053239",
+      "name": "BINDING-3",
+      "font_class": "BINDING-3",
+      "unicode": "e6cd",
+      "unicode_decimal": 59085
+    },
+    {
+      "icon_id": "38053238",
+      "name": "BINDING-2",
+      "font_class": "BINDING-2",
+      "unicode": "e6ce",
+      "unicode_decimal": 59086
+    },
+    {
+      "icon_id": "38053237",
+      "name": "BINDING-1",
+      "font_class": "BINDING-1",
+      "unicode": "e6cf",
+      "unicode_decimal": 59087
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+@font-face {
+  font-family: "figure"; /* Project id 4318953 */
+  src: url('iconfont.woff2?t=1714963284309') format('woff2'),
+       url('iconfont.woff?t=1714963284309') format('woff'),
+       url('iconfont.ttf?t=1714963284309') format('truetype'),
+       url('iconfont.svg?t=1714963284309#figure') format('svg');
+}
+
+.figure {
+  font-family: "figure" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.figure-STITCHING-1:before {
+  content: "\e768";
+}
+
+.figure-STITCHING-2:before {
+  content: "\e769";
+}
+
+.figure-STITCHING-3:before {
+  content: "\e76a";
+}
+
+.figure-LEATHER_1-1:before {
+  content: "\e749";
+}
+
+.figure-LEATHER_1-2:before {
+  content: "\e748";
+}
+
+.figure-LEATHER_1-3:before {
+  content: "\e6be";
+}
+
+.figure-PALM-3:before {
+  content: "\e6bb";
+}
+
+.figure-WEB-2:before {
+  content: "\e6b5";
+}
+
+.figure-WEB-1:before {
+  content: "\e6b6";
+}
+
+.figure-WEB-3:before {
+  content: "\e6b7";
+}
+
+.figure-WEB_CROWN-1:before {
+  content: "\e6b3";
+}
+
+.figure-WEB_CROWN-2:before {
+  content: "\e6b4";
+}
+
+.figure-LACES-3:before {
+  content: "\e6ae";
+}
+
+.figure-LACES-1:before {
+  content: "\e6af";
+}
+
+.figure-LACES-2:before {
+  content: "\e6b0";
+}
+
+.figure-BINDING-3:before {
+  content: "\e6ad";
+}
+
+.figure-BINDING-1:before {
+  content: "\e6b1";
+}
+
+.figure-BINDING-2:before {
+  content: "\e6b2";
+}
+

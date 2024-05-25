@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "figure"; /* Project id 4300803 */
+  src: url('iconfont.woff2?t=1714963537670') format('woff2'),
+       url('iconfont.woff?t=1714963537670') format('woff'),
+       url('iconfont.ttf?t=1714963537670') format('truetype');
+}
+
+.figure {
+  font-family: "figure" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.figure-STITCHING-2:before {
+  content: "\e765";
+}
+
+.figure-STITCHING-1:before {
+  content: "\e766";
+}
+
+.figure-LEATHER_1-1:before {
+  content: "\e738";
+}
+
+.figure-HOME_PLATE-1:before {
+  content: "\e6fd";
+}
+
+.figure-WRIST-1:before {
+  content: "\40001";
+}
+
+.figure-WEB-1:before {
+  content: "\40002";
+}
+
+.figure-PALM-2:before {
+  content: "\40004";
+}
+
+.figure-LOGO_COLOR-1:before {
+  content: "\40005";
+}
+
+.figure-LEATHER_2-1:before {
+  content: "\40006";
+}
+
+.figure-LEATHER_2-2:before {
+  content: "\40007";
+}
+
+.figure-LEATHER_1-2:before {
+  content: "\40009";
+}
+
+.figure-LACES-1:before {
+  content: "\40010";
+}
+
+.figure-LACES-2:before {
+  content: "\40011";
+}
+
+.figure-BINDING-1:before {
+  content: "\40013";
+}
+
+.figure-BINDING-2:before {
+  content: "\40014";
+}
+

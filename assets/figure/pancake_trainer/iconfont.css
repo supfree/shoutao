@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4300803 */
+  src: url('iconfont.woff2?t=1713328588977') format('woff2'),
+       url('iconfont.woff?t=1713328588977') format('woff'),
+       url('iconfont.ttf?t=1713328588977') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-HOME_PLATE_1:before {
+  content: "\e6fd";
+}
+
+.icon-STITCHING-2:before {
+  content: "\40000";
+}
+
+.icon-WRIST-1:before {
+  content: "\40001";
+}
+
+.icon-WEB-1:before {
+  content: "\40002";
+}
+
+.icon-STITCHING-1:before {
+  content: "\40003";
+}
+
+.icon-PALM-2:before {
+  content: "\40004";
+}
+
+.icon-LOGO_COLOR-1:before {
+  content: "\40005";
+}
+
+.icon-LEATHER_2-1:before {
+  content: "\40006";
+}
+
+.icon-LEATHER_2-2:before {
+  content: "\40007";
+}
+
+.icon-LEATHER_1-1:before {
+  content: "\40008";
+}
+
+.icon-LEATHER_1-2:before {
+  content: "\40009";
+}
+
+.icon-LACES-1:before {
+  content: "\40010";
+}
+
+.icon-LACES-2:before {
+  content: "\40011";
+}
+
+.icon-BINDING-1:before {
+  content: "\40013";
+}
+
+.icon-BINDING-2:before {
+  content: "\40014";
+}
+

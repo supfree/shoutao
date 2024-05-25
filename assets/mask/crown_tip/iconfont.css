@@ -1,0 +1,184 @@
+@font-face {
+  font-family: "figure"; /* Project id 4306185 */
+  src: url('iconfont.woff2?t=1714963493162') format('woff2'),
+       url('iconfont.woff?t=1714963493162') format('woff'),
+       url('iconfont.ttf?t=1714963493162') format('truetype'),
+       url('iconfont.svg?t=1714963493162#figure') format('svg');
+}
+
+.figure {
+  font-family: "figure" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.figure-STITCHING-1:before {
+  content: "\e761";
+}
+
+.figure-STITCHING-3:before {
+  content: "\e762";
+}
+
+.figure-STITCHING-2:before {
+  content: "\e763";
+}
+
+.figure-STITCHING-4:before {
+  content: "\e764";
+}
+
+.figure-WRIST-1:before {
+  content: "\e71a";
+}
+
+.figure-WRIST-4:before {
+  content: "\e719";
+}
+
+.figure-WRIST-2:before {
+  content: "\e71b";
+}
+
+.figure-HOME_PLATE-1:before {
+  content: "\e6fb";
+}
+
+.figure-HOME_PLATE-2:before {
+  content: "\e6fc";
+}
+
+.figure-WINGTIP_THUMB-2:before {
+  content: "\e690";
+}
+
+.figure-WINGTIP_THUMB-3:before {
+  content: "\e691";
+}
+
+.figure-WELTING-1:before {
+  content: "\e682";
+}
+
+.figure-WELTING-4:before {
+  content: "\e683";
+}
+
+.figure-WELTING-3:before {
+  content: "\e684";
+}
+
+.figure-WELTING-2:before {
+  content: "\e685";
+}
+
+.figure-WEB-2:before {
+  content: "\e686";
+}
+
+.figure-WEB-3:before {
+  content: "\e687";
+}
+
+.figure-WEB-1:before {
+  content: "\e688";
+}
+
+.figure-WINGTIP_PINKY-4:before {
+  content: "\e680";
+}
+
+.figure-WINGTIP_PINKY-3:before {
+  content: "\e681";
+}
+
+.figure-LEATHER_1-2:before {
+  content: "\e67d";
+}
+
+.figure-LEATHER_1-3:before {
+  content: "\e67e";
+}
+
+.figure-LEATHER_1-1:before {
+  content: "\e67f";
+}
+
+.figure-PALM-3:before {
+  content: "\e675";
+}
+
+.figure-PALM-1:before {
+  content: "\e676";
+}
+
+.figure-PALM-2:before {
+  content: "\e677";
+}
+
+.figure-LOGO_COLOR-2:before {
+  content: "\e678";
+}
+
+.figure-LOGO_COLOR-1:before {
+  content: "\e679";
+}
+
+.figure-LEATHER_2-4:before {
+  content: "\e67a";
+}
+
+.figure-LEATHER_2-1:before {
+  content: "\e67b";
+}
+
+.figure-LEATHER_2-3:before {
+  content: "\e67c";
+}
+
+.figure-LACES-2:before {
+  content: "\e66c";
+}
+
+.figure-LACES-1:before {
+  content: "\e66d";
+}
+
+.figure-LACES-3:before {
+  content: "\e66e";
+}
+
+.figure-LACES-4:before {
+  content: "\e66f";
+}
+
+.figure-CROWN_COLOR-4:before {
+  content: "\e672";
+}
+
+.figure-CROWN_COLOR-1:before {
+  content: "\e673";
+}
+
+.figure-CROWN_COLOR-3:before {
+  content: "\e674";
+}
+
+.figure-BINDING-3:before {
+  content: "\e668";
+}
+
+.figure-BINDING-4:before {
+  content: "\e669";
+}
+
+.figure-BINDING-2:before {
+  content: "\e66a";
+}
+
+.figure-BINDING-1:before {
+  content: "\e66b";
+}
+

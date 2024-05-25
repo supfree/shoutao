@@ -1,0 +1,360 @@
+[
+  {
+    "name": "alipay",
+    "path": "/alipay",
+    "component": "/Users/supfree/Desktop/pc/pages/alipay.vue",
+    "chunkName": "pages/alipay",
+    "_name": "_ad66b27e"
+  },
+  {
+    "name": "AppChat",
+    "path": "/AppChat",
+    "component": "/Users/supfree/Desktop/pc/pages/AppChat.vue",
+    "chunkName": "pages/AppChat",
+    "_name": "_659a67dc"
+  },
+  {
+    "name": "evaluation",
+    "path": "/evaluation",
+    "component": "/Users/supfree/Desktop/pc/pages/evaluation.vue",
+    "chunkName": "pages/evaluation",
+    "_name": "_762af333"
+  },
+  {
+    "name": "goods_cate",
+    "path": "/goods_cate",
+    "component": "/Users/supfree/Desktop/pc/pages/goods_cate.vue",
+    "chunkName": "pages/goods_cate",
+    "_name": "_3aaabee2"
+  },
+  {
+    "name": "goods_list",
+    "path": "/goods_list",
+    "component": "/Users/supfree/Desktop/pc/pages/goods_list.vue",
+    "chunkName": "pages/goods_list",
+    "_name": "_2fe5965e"
+  },
+  {
+    "name": "goods_presell",
+    "path": "/goods_presell",
+    "component": "/Users/supfree/Desktop/pc/pages/goods_presell.vue",
+    "chunkName": "pages/goods_presell",
+    "_name": "_fea3b536"
+  },
+  {
+    "name": "goods_presell_detail",
+    "path": "/goods_presell_detail",
+    "component": "/Users/supfree/Desktop/pc/pages/goods_presell_detail.vue",
+    "chunkName": "pages/goods_presell_detail",
+    "_name": "_6fddcc9b"
+  },
+  {
+    "name": "goods_presell_detail_base copy",
+    "path": "/goods_presell_detail_base%20copy",
+    "component": "/Users/supfree/Desktop/pc/pages/goods_presell_detail_base copy.vue",
+    "chunkName": "pages/goods_presell_detail_base copy",
+    "_name": "_53ad1840"
+  },
+  {
+    "name": "goods_presell_detail_c2",
+    "path": "/goods_presell_detail_c2",
+    "component": "/Users/supfree/Desktop/pc/pages/goods_presell_detail_c2.vue",
+    "chunkName": "pages/goods_presell_detail_c2",
+    "_name": "_0039e0fa"
+  },
+  {
+    "name": "goods_presell_detail_Catcher-PRO44",
+    "path": "/goods_presell_detail_Catcher-PRO44",
+    "component": "/Users/supfree/Desktop/pc/pages/goods_presell_detail_Catcher-PRO44.vue",
+    "chunkName": "pages/goods_presell_detail_Catcher-PRO44",
+    "_name": "_2c423d24"
+  },
+  {
+    "name": "goods_presell_detail_cb44",
+    "path": "/goods_presell_detail_cb44",
+    "component": "/Users/supfree/Desktop/pc/pages/goods_presell_detail_cb44.vue",
+    "chunkName": "pages/goods_presell_detail_cb44",
+    "_name": "_f5f9391a"
+  },
+  {
+    "name": "goods_presell_detail_cb442",
+    "path": "/goods_presell_detail_cb442",
+    "component": "/Users/supfree/Desktop/pc/pages/goods_presell_detail_cb442.vue",
+    "chunkName": "pages/goods_presell_detail_cb442",
+    "_name": "_1b80b44f"
+  },
+  {
+    "name": "goods_presell_detail_cf",
+    "path": "/goods_presell_detail_cf",
+    "component": "/Users/supfree/Desktop/pc/pages/goods_presell_detail_cf.vue",
+    "chunkName": "pages/goods_presell_detail_cf",
+    "_name": "_02bfd5b7"
+  },
+  {
+    "name": "goods_presell_detail_close_back_pro44",
+    "path": "/goods_presell_detail_close_back_pro44",
+    "component": "/Users/supfree/Desktop/pc/pages/goods_presell_detail_close_back_pro44.vue",
+    "chunkName": "pages/goods_presell_detail_close_back_pro44",
+    "_name": "_4759c910"
+  },
+  {
+    "name": "goods_presell_detail_crowntip",
+    "path": "/goods_presell_detail_crowntip",
+    "component": "/Users/supfree/Desktop/pc/pages/goods_presell_detail_crowntip.vue",
+    "chunkName": "pages/goods_presell_detail_crowntip",
+    "_name": "_ae73e750"
+  },
+  {
+    "name": "goods_presell_detail_crowntip2",
+    "path": "/goods_presell_detail_crowntip2",
+    "component": "/Users/supfree/Desktop/pc/pages/goods_presell_detail_crowntip2.vue",
+    "chunkName": "pages/goods_presell_detail_crowntip2",
+    "_name": "_7013280a"
+  },
+  {
+    "name": "goods_presell_detail_ex10",
+    "path": "/goods_presell_detail_ex10",
+    "component": "/Users/supfree/Desktop/pc/pages/goods_presell_detail_ex10.vue",
+    "chunkName": "pages/goods_presell_detail_ex10",
+    "_name": "_49902634"
+  },
+  {
+    "name": "goods_presell_detail_hnd",
+    "path": "/goods_presell_detail_hnd",
+    "component": "/Users/supfree/Desktop/pc/pages/goods_presell_detail_hnd.vue",
+    "chunkName": "pages/goods_presell_detail_hnd",
+    "_name": "_6e390efa"
+  },
+  {
+    "name": "goods_presell_detail_japan",
+    "path": "/goods_presell_detail_japan",
+    "component": "/Users/supfree/Desktop/pc/pages/goods_presell_detail_japan.vue",
+    "chunkName": "pages/goods_presell_detail_japan",
+    "_name": "_778c09e2"
+  },
+  {
+    "name": "goods_presell_detail_jp11",
+    "path": "/goods_presell_detail_jp11",
+    "component": "/Users/supfree/Desktop/pc/pages/goods_presell_detail_jp11.vue",
+    "chunkName": "pages/goods_presell_detail_jp11",
+    "_name": "_3b7a0aba"
+  },
+  {
+    "name": "goods_presell_detail_open_back_pro44",
+    "path": "/goods_presell_detail_open_back_pro44",
+    "component": "/Users/supfree/Desktop/pc/pages/goods_presell_detail_open_back_pro44.vue",
+    "chunkName": "pages/goods_presell_detail_open_back_pro44",
+    "_name": "_e5fc26f4"
+  },
+  {
+    "name": "goods_presell_detail_pancake_trainer",
+    "path": "/goods_presell_detail_pancake_trainer",
+    "component": "/Users/supfree/Desktop/pc/pages/goods_presell_detail_pancake_trainer.vue",
+    "chunkName": "pages/goods_presell_detail_pancake_trainer",
+    "_name": "_634e4927"
+  },
+  {
+    "name": "goods_presell_detail_pro44",
+    "path": "/goods_presell_detail_pro44",
+    "component": "/Users/supfree/Desktop/pc/pages/goods_presell_detail_pro44.vue",
+    "chunkName": "pages/goods_presell_detail_pro44",
+    "_name": "_5238fc49"
+  },
+  {
+    "name": "goods_presell_detail_pro442",
+    "path": "/goods_presell_detail_pro442",
+    "component": "/Users/supfree/Desktop/pc/pages/goods_presell_detail_pro442.vue",
+    "chunkName": "pages/goods_presell_detail_pro442",
+    "_name": "_1603938e"
+  },
+  {
+    "name": "goods_presell_detail_rb5",
+    "path": "/goods_presell_detail_rb5",
+    "component": "/Users/supfree/Desktop/pc/pages/goods_presell_detail_rb5.vue",
+    "chunkName": "pages/goods_presell_detail_rb5",
+    "_name": "_6826e761"
+  },
+  {
+    "name": "goods_presell_detail - 副本",
+    "path": "/goods_presell_detail%20-%20%E5%89%AF%E6%9C%AC",
+    "component": "/Users/supfree/Desktop/pc/pages/goods_presell_detail - 副本.vue",
+    "chunkName": "pages/goods_presell_detail - 副本",
+    "_name": "_78665a05"
+  },
+  {
+    "name": "goods_search",
+    "path": "/goods_search",
+    "component": "/Users/supfree/Desktop/pc/pages/goods_search.vue",
+    "chunkName": "pages/goods_search",
+    "_name": "_68986730"
+  },
+  {
+    "name": "goods_seckill",
+    "path": "/goods_seckill",
+    "component": "/Users/supfree/Desktop/pc/pages/goods_seckill.vue",
+    "chunkName": "pages/goods_seckill",
+    "_name": "_43a8271f"
+  },
+  {
+    "name": "goods_seckill_detail",
+    "path": "/goods_seckill_detail",
+    "component": "/Users/supfree/Desktop/pc/pages/goods_seckill_detail.vue",
+    "chunkName": "pages/goods_seckill_detail",
+    "_name": "_cb2974be"
+  },
+  {
+    "name": "login",
+    "path": "/login",
+    "component": "/Users/supfree/Desktop/pc/pages/login.vue",
+    "chunkName": "pages/login",
+    "_name": "_a9f9a27c"
+  },
+  {
+    "name": "logistics",
+    "path": "/logistics",
+    "component": "/Users/supfree/Desktop/pc/pages/logistics.vue",
+    "chunkName": "pages/logistics",
+    "_name": "_f873a828"
+  },
+  {
+    "name": "mobile_login",
+    "path": "/mobile_login",
+    "component": "/Users/supfree/Desktop/pc/pages/mobile_login/index.vue",
+    "chunkName": "pages/mobile_login/index",
+    "_name": "_ec479bf4"
+  },
+  {
+    "name": "order_confirm",
+    "path": "/order_confirm",
+    "component": "/Users/supfree/Desktop/pc/pages/order_confirm.vue",
+    "chunkName": "pages/order_confirm",
+    "_name": "_23033228"
+  },
+  {
+    "name": "order_detail",
+    "path": "/order_detail",
+    "component": "/Users/supfree/Desktop/pc/pages/order_detail.vue",
+    "chunkName": "pages/order_detail",
+    "_name": "_04b2e799"
+  },
+  {
+    "name": "payment",
+    "path": "/payment",
+    "component": "/Users/supfree/Desktop/pc/pages/payment.vue",
+    "chunkName": "pages/payment",
+    "_name": "_e890e2c2"
+  },
+  {
+    "name": "refund",
+    "path": "/refund",
+    "component": "/Users/supfree/Desktop/pc/pages/refund.vue",
+    "chunkName": "pages/refund",
+    "_name": "_8b9e5622"
+  },
+  {
+    "name": "refund_goods",
+    "path": "/refund_goods",
+    "component": "/Users/supfree/Desktop/pc/pages/refund_goods.vue",
+    "chunkName": "pages/refund_goods",
+    "_name": "_71f322f4"
+  },
+  {
+    "name": "rule",
+    "path": "/rule",
+    "component": "/Users/supfree/Desktop/pc/pages/rule.vue",
+    "chunkName": "pages/rule",
+    "_name": "_25bf5633"
+  },
+  {
+    "name": "shoppingCart",
+    "path": "/shoppingCart",
+    "component": "/Users/supfree/Desktop/pc/pages/shoppingCart.vue",
+    "chunkName": "pages/shoppingCart",
+    "_name": "_c1923242"
+  },
+  {
+    "path": "/user",
+    "component": "/Users/supfree/Desktop/pc/pages/user.vue",
+    "chunkName": "pages/user",
+    "children": [
+      {
+        "name": "user",
+        "path": "",
+        "component": "/Users/supfree/Desktop/pc/pages/user/index.vue",
+        "chunkName": "pages/user/index",
+        "_name": "_9b33eef6"
+      },
+      {
+        "name": "user-address_list",
+        "path": "address_list",
+        "component": "/Users/supfree/Desktop/pc/pages/user/address_list.vue",
+        "chunkName": "pages/user/address_list",
+        "_name": "_72707cb4"
+      },
+      {
+        "name": "user-balance",
+        "path": "balance",
+        "component": "/Users/supfree/Desktop/pc/pages/user/balance.vue",
+        "chunkName": "pages/user/balance",
+        "_name": "_fbe7c262"
+      },
+      {
+        "name": "user-collect",
+        "path": "collect",
+        "component": "/Users/supfree/Desktop/pc/pages/user/collect.vue",
+        "chunkName": "pages/user/collect",
+        "_name": "_0e5d3a1d"
+      },
+      {
+        "name": "user-messageCenter",
+        "path": "messageCenter",
+        "component": "/Users/supfree/Desktop/pc/pages/user/messageCenter.vue",
+        "chunkName": "pages/user/messageCenter",
+        "_name": "_06f9a6ef"
+      },
+      {
+        "name": "user-myCoupon",
+        "path": "myCoupon",
+        "component": "/Users/supfree/Desktop/pc/pages/user/myCoupon.vue",
+        "chunkName": "pages/user/myCoupon",
+        "_name": "_be572ae2"
+      },
+      {
+        "name": "user-orderList",
+        "path": "orderList",
+        "component": "/Users/supfree/Desktop/pc/pages/user/orderList.vue",
+        "chunkName": "pages/user/orderList",
+        "_name": "_3de5023f"
+      },
+      {
+        "name": "user-userCoupon",
+        "path": "userCoupon",
+        "component": "/Users/supfree/Desktop/pc/pages/user/userCoupon.vue",
+        "chunkName": "pages/user/userCoupon",
+        "_name": "_1350fea4"
+      }
+    ],
+    "_name": "_2f48a8fc"
+  },
+  {
+    "name": "wxPay",
+    "path": "/wxPay",
+    "component": "/Users/supfree/Desktop/pc/pages/wxPay.vue",
+    "chunkName": "pages/wxPay",
+    "_name": "_39b91b40"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/supfree/Desktop/pc/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_3d48e8aa"
+  },
+  {
+    "name": "goods_detail-id",
+    "path": "/goods_detail/:id",
+    "component": "/Users/supfree/Desktop/pc/pages/goods_detail/_id/index.vue",
+    "chunkName": "pages/goods_detail/_id/index",
+    "_name": "_495f693f"
+  }
+]

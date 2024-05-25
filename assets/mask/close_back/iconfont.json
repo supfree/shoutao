@@ -1,0 +1,135 @@
+{
+  "id": "4318953",
+  "name": "Close Back",
+  "font_family": "figure",
+  "css_prefix_text": "figure-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "40193814",
+      "name": "STITCHING-1",
+      "font_class": "STITCHING-1",
+      "unicode": "e768",
+      "unicode_decimal": 59240
+    },
+    {
+      "icon_id": "40193813",
+      "name": "STITCHING-2",
+      "font_class": "STITCHING-2",
+      "unicode": "e769",
+      "unicode_decimal": 59241
+    },
+    {
+      "icon_id": "40193812",
+      "name": "STITCHING-3",
+      "font_class": "STITCHING-3",
+      "unicode": "e76a",
+      "unicode_decimal": 59242
+    },
+    {
+      "icon_id": "40171082",
+      "name": "LEATHER_1-1",
+      "font_class": "LEATHER_1-1",
+      "unicode": "e749",
+      "unicode_decimal": 59209
+    },
+    {
+      "icon_id": "40171071",
+      "name": "LEATHER_1-2",
+      "font_class": "LEATHER_1-2",
+      "unicode": "e748",
+      "unicode_decimal": 59208
+    },
+    {
+      "icon_id": "37995504",
+      "name": "LEATHER_1-3",
+      "font_class": "LEATHER_1-3",
+      "unicode": "e6be",
+      "unicode_decimal": 59070
+    },
+    {
+      "icon_id": "37995525",
+      "name": "PALM-3",
+      "font_class": "PALM-3",
+      "unicode": "e6bb",
+      "unicode_decimal": 59067
+    },
+    {
+      "icon_id": "37995543",
+      "name": "WEB-2",
+      "font_class": "WEB-2",
+      "unicode": "e6b5",
+      "unicode_decimal": 59061
+    },
+    {
+      "icon_id": "37995542",
+      "name": "WEB-1",
+      "font_class": "WEB-1",
+      "unicode": "e6b6",
+      "unicode_decimal": 59062
+    },
+    {
+      "icon_id": "37995541",
+      "name": "WEB-3",
+      "font_class": "WEB-3",
+      "unicode": "e6b7",
+      "unicode_decimal": 59063
+    },
+    {
+      "icon_id": "37995570",
+      "name": "WEB_CROWN-1",
+      "font_class": "WEB_CROWN-1",
+      "unicode": "e6b3",
+      "unicode_decimal": 59059
+    },
+    {
+      "icon_id": "37995569",
+      "name": "WEB_CROWN-2",
+      "font_class": "WEB_CROWN-2",
+      "unicode": "e6b4",
+      "unicode_decimal": 59060
+    },
+    {
+      "icon_id": "37995501",
+      "name": "LACES-3",
+      "font_class": "LACES-3",
+      "unicode": "e6ae",
+      "unicode_decimal": 59054
+    },
+    {
+      "icon_id": "37995500",
+      "name": "LACES-1",
+      "font_class": "LACES-1",
+      "unicode": "e6af",
+      "unicode_decimal": 59055
+    },
+    {
+      "icon_id": "37995499",
+      "name": "LACES-2",
+      "font_class": "LACES-2",
+      "unicode": "e6b0",
+      "unicode_decimal": 59056
+    },
+    {
+      "icon_id": "37995498",
+      "name": "BINDING-3",
+      "font_class": "BINDING-3",
+      "unicode": "e6ad",
+      "unicode_decimal": 59053
+    },
+    {
+      "icon_id": "37995497",
+      "name": "BINDING-1",
+      "font_class": "BINDING-1",
+      "unicode": "e6b1",
+      "unicode_decimal": 59057
+    },
+    {
+      "icon_id": "37995496",
+      "name": "BINDING-2",
+      "font_class": "BINDING-2",
+      "unicode": "e6b2",
+      "unicode_decimal": 59058
+    }
+  ]
+}

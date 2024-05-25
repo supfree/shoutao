@@ -1,0 +1,156 @@
+@font-face {
+  font-family: "figure"; /* Project id 4313969 */
+  src: url('iconfont.woff2?t=1714963455884') format('woff2'),
+       url('iconfont.woff?t=1714963455884') format('woff'),
+       url('iconfont.ttf?t=1714963455884') format('truetype'),
+       url('iconfont.svg?t=1714963455884#figure') format('svg');
+}
+
+.figure {
+  font-family: "figure" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.figure-STITCHING-2:before {
+  content: "\e75e";
+}
+
+.figure-STITCHING-1:before {
+  content: "\e75f";
+}
+
+.figure-STITCHING-3:before {
+  content: "\e760";
+}
+
+.figure-STITCHING-4:before {
+  content: "\e761";
+}
+
+.figure-LEATHER_2-4:before {
+  content: "\e73a";
+}
+
+.figure-LEATHER_2-1:before {
+  content: "\e73b";
+}
+
+.figure-LEATHER_2-3:before {
+  content: "\e742";
+}
+
+.figure-LACES-3:before {
+  content: "\e73e";
+}
+
+.figure-LACES-2:before {
+  content: "\e73f";
+}
+
+.figure-LACES-1:before {
+  content: "\e740";
+}
+
+.figure-LACES-4:before {
+  content: "\e741";
+}
+
+.figure-LEATHER_3-4:before {
+  content: "\e725";
+}
+
+.figure-LEATHER_3-1:before {
+  content: "\e73c";
+}
+
+.figure-LEATHER_3-3:before {
+  content: "\e73d";
+}
+
+.figure-PALM-3:before {
+  content: "\e72a";
+}
+
+.figure-WELTING-2:before {
+  content: "\e72b";
+}
+
+.figure-WELTING-3:before {
+  content: "\e72c";
+}
+
+.figure-WELTING-1:before {
+  content: "\e72d";
+}
+
+.figure-WELTING-4:before {
+  content: "\e72e";
+}
+
+.figure-LEATHER_1-1:before {
+  content: "\e72f";
+}
+
+.figure-WINGTIP_PINKY-1:before {
+  content: "\e730";
+}
+
+.figure-WINGTIP_THUMB-2:before {
+  content: "\e731";
+}
+
+.figure-WINGTIP_PINKY-4:before {
+  content: "\e732";
+}
+
+.figure-WINGTIP_PINKY-3:before {
+  content: "\e733";
+}
+
+.figure-WINGTIP_THUMB-1:before {
+  content: "\e734";
+}
+
+.figure-LEATHER_1-3:before {
+  content: "\e735";
+}
+
+.figure-WINGTIP_THUMB-3:before {
+  content: "\e736";
+}
+
+.figure-LEATHER_1-2:before {
+  content: "\e737";
+}
+
+.figure-LEATHER_1-4:before {
+  content: "\e739";
+}
+
+.figure-BINDING-3:before {
+  content: "\e727";
+}
+
+.figure-BINDING-4:before {
+  content: "\e728";
+}
+
+.figure-BINDING-2:before {
+  content: "\e729";
+}
+
+.figure-BINDING-1:before {
+  content: "\e726";
+}
+
+.figure-HOME_PLATE-2:before {
+  content: "\e6fa";
+}
+
+.figure-HOME_PLATE-1:before {
+  content: "\e6fb";
+}
+

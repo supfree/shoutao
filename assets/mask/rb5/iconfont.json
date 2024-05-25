@@ -1,0 +1,261 @@
+{
+  "id": "4323546",
+  "name": "RB5",
+  "font_family": "figure",
+  "css_prefix_text": "figure-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "40193864",
+      "name": "STITCHING-2",
+      "font_class": "STITCHING-2",
+      "unicode": "e76a",
+      "unicode_decimal": 59242
+    },
+    {
+      "icon_id": "40193863",
+      "name": "STITCHING-4",
+      "font_class": "STITCHING-4",
+      "unicode": "e76b",
+      "unicode_decimal": 59243
+    },
+    {
+      "icon_id": "40193861",
+      "name": "STITCHING-1",
+      "font_class": "STITCHING-1",
+      "unicode": "e76c",
+      "unicode_decimal": 59244
+    },
+    {
+      "icon_id": "40193860",
+      "name": "STITCHING-3",
+      "font_class": "STITCHING-3",
+      "unicode": "e76d",
+      "unicode_decimal": 59245
+    },
+    {
+      "icon_id": "40176594",
+      "name": "WRIST-4",
+      "font_class": "WRIST-4",
+      "unicode": "e752",
+      "unicode_decimal": 59218
+    },
+    {
+      "icon_id": "40176595",
+      "name": "WRIST-2",
+      "font_class": "WRIST-2",
+      "unicode": "e750",
+      "unicode_decimal": 59216
+    },
+    {
+      "icon_id": "40176596",
+      "name": "WRIST-1",
+      "font_class": "WRIST-1",
+      "unicode": "e751",
+      "unicode_decimal": 59217
+    },
+    {
+      "icon_id": "40176517",
+      "name": "LEATHER_3-4",
+      "font_class": "LEATHER_3-4",
+      "unicode": "e74b",
+      "unicode_decimal": 59211
+    },
+    {
+      "icon_id": "40176516",
+      "name": "LEATHER_3-1",
+      "font_class": "LEATHER_3-1",
+      "unicode": "e74f",
+      "unicode_decimal": 59215
+    },
+    {
+      "icon_id": "40176567",
+      "name": "WEB_CROWN-2",
+      "font_class": "WEB_CROWN-2",
+      "unicode": "e74c",
+      "unicode_decimal": 59212
+    },
+    {
+      "icon_id": "40176566",
+      "name": "WEB_CROWN-1",
+      "font_class": "WEB_CROWN-1",
+      "unicode": "e74d",
+      "unicode_decimal": 59213
+    },
+    {
+      "icon_id": "40176565",
+      "name": "WEB_CROWN-4",
+      "font_class": "WEB_CROWN-4",
+      "unicode": "e74e",
+      "unicode_decimal": 59214
+    },
+    {
+      "icon_id": "38038375",
+      "name": "LOGO_COLOR-1",
+      "font_class": "LOGO_COLOR-1",
+      "unicode": "e6e0",
+      "unicode_decimal": 59104
+    },
+    {
+      "icon_id": "38038376",
+      "name": "LOGO_COLOR-2",
+      "font_class": "LOGO_COLOR-2",
+      "unicode": "e6e1",
+      "unicode_decimal": 59105
+    },
+    {
+      "icon_id": "38038399",
+      "name": "PALM-3",
+      "font_class": "PALM-3",
+      "unicode": "e6df",
+      "unicode_decimal": 59103
+    },
+    {
+      "icon_id": "38038445",
+      "name": "WEB-2",
+      "font_class": "WEB-2",
+      "unicode": "e6d7",
+      "unicode_decimal": 59095
+    },
+    {
+      "icon_id": "38038444",
+      "name": "WEB-3",
+      "font_class": "WEB-3",
+      "unicode": "e6d8",
+      "unicode_decimal": 59096
+    },
+    {
+      "icon_id": "38038443",
+      "name": "WEB-1",
+      "font_class": "WEB-1",
+      "unicode": "e6d9",
+      "unicode_decimal": 59097
+    },
+    {
+      "icon_id": "38038442",
+      "name": "WEB-4",
+      "font_class": "WEB-4",
+      "unicode": "e6da",
+      "unicode_decimal": 59098
+    },
+    {
+      "icon_id": "38038316",
+      "name": "LEATHER_1-2",
+      "font_class": "LEATHER_1-2",
+      "unicode": "e6ce",
+      "unicode_decimal": 59086
+    },
+    {
+      "icon_id": "38038315",
+      "name": "LEATHER_1-3",
+      "font_class": "LEATHER_1-3",
+      "unicode": "e6cf",
+      "unicode_decimal": 59087
+    },
+    {
+      "icon_id": "38038314",
+      "name": "LEATHER_1-1",
+      "font_class": "LEATHER_1-1",
+      "unicode": "e6d0",
+      "unicode_decimal": 59088
+    },
+    {
+      "icon_id": "38038353",
+      "name": "LEATHER_4-1",
+      "font_class": "LEATHER_4-1",
+      "unicode": "e6c8",
+      "unicode_decimal": 59080
+    },
+    {
+      "icon_id": "38038352",
+      "name": "LEATHER_4-4",
+      "font_class": "LEATHER_4-4",
+      "unicode": "e6c9",
+      "unicode_decimal": 59081
+    },
+    {
+      "icon_id": "38038337",
+      "name": "LEATHER_2-4",
+      "font_class": "LEATHER_2-4",
+      "unicode": "e6cc",
+      "unicode_decimal": 59084
+    },
+    {
+      "icon_id": "38038336",
+      "name": "LEATHER_2-1",
+      "font_class": "LEATHER_2-1",
+      "unicode": "e6cd",
+      "unicode_decimal": 59085
+    },
+    {
+      "icon_id": "38037725",
+      "name": "LACES-1",
+      "font_class": "LACES-1",
+      "unicode": "e6c4",
+      "unicode_decimal": 59076
+    },
+    {
+      "icon_id": "38037726",
+      "name": "LACES-2",
+      "font_class": "LACES-2",
+      "unicode": "e6c5",
+      "unicode_decimal": 59077
+    },
+    {
+      "icon_id": "38037727",
+      "name": "LACES-4",
+      "font_class": "LACES-4",
+      "unicode": "e6c6",
+      "unicode_decimal": 59078
+    },
+    {
+      "icon_id": "38037728",
+      "name": "LACES-3",
+      "font_class": "LACES-3",
+      "unicode": "e6c7",
+      "unicode_decimal": 59079
+    },
+    {
+      "icon_id": "38037615",
+      "name": "BINDING-4",
+      "font_class": "BINDING-4",
+      "unicode": "e6be",
+      "unicode_decimal": 59070
+    },
+    {
+      "icon_id": "38037614",
+      "name": "BINDING-3",
+      "font_class": "BINDING-3",
+      "unicode": "e6c1",
+      "unicode_decimal": 59073
+    },
+    {
+      "icon_id": "38037613",
+      "name": "BINDING-1",
+      "font_class": "BINDING-1",
+      "unicode": "e6c2",
+      "unicode_decimal": 59074
+    },
+    {
+      "icon_id": "38037612",
+      "name": "BINDING-2",
+      "font_class": "BINDING-2",
+      "unicode": "e6c3",
+      "unicode_decimal": 59075
+    },
+    {
+      "icon_id": "38037713",
+      "name": "FINGER_PAD-1",
+      "font_class": "FINGER_PAD-1",
+      "unicode": "e6bf",
+      "unicode_decimal": 59071
+    },
+    {
+      "icon_id": "38037712",
+      "name": "FINGER_PAD-4",
+      "font_class": "FINGER_PAD-4",
+      "unicode": "e6c0",
+      "unicode_decimal": 59072
+    }
+  ]
+}

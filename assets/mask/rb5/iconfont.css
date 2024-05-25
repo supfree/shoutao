@@ -1,0 +1,160 @@
+@font-face {
+  font-family: "figure"; /* Project id 4323546 */
+  src: url('iconfont.woff2?t=1714963197668') format('woff2'),
+       url('iconfont.woff?t=1714963197668') format('woff'),
+       url('iconfont.ttf?t=1714963197668') format('truetype'),
+       url('iconfont.svg?t=1714963197668#figure') format('svg');
+}
+
+.figure {
+  font-family: "figure" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.figure-STITCHING-2:before {
+  content: "\e76a";
+}
+
+.figure-STITCHING-4:before {
+  content: "\e76b";
+}
+
+.figure-STITCHING-1:before {
+  content: "\e76c";
+}
+
+.figure-STITCHING-3:before {
+  content: "\e76d";
+}
+
+.figure-WRIST-4:before {
+  content: "\e752";
+}
+
+.figure-WRIST-2:before {
+  content: "\e750";
+}
+
+.figure-WRIST-1:before {
+  content: "\e751";
+}
+
+.figure-LEATHER_3-4:before {
+  content: "\e74b";
+}
+
+.figure-LEATHER_3-1:before {
+  content: "\e74f";
+}
+
+.figure-WEB_CROWN-2:before {
+  content: "\e74c";
+}
+
+.figure-WEB_CROWN-1:before {
+  content: "\e74d";
+}
+
+.figure-WEB_CROWN-4:before {
+  content: "\e74e";
+}
+
+.figure-LOGO_COLOR-1:before {
+  content: "\e6e0";
+}
+
+.figure-LOGO_COLOR-2:before {
+  content: "\e6e1";
+}
+
+.figure-PALM-3:before {
+  content: "\e6df";
+}
+
+.figure-WEB-2:before {
+  content: "\e6d7";
+}
+
+.figure-WEB-3:before {
+  content: "\e6d8";
+}
+
+.figure-WEB-1:before {
+  content: "\e6d9";
+}
+
+.figure-WEB-4:before {
+  content: "\e6da";
+}
+
+.figure-LEATHER_1-2:before {
+  content: "\e6ce";
+}
+
+.figure-LEATHER_1-3:before {
+  content: "\e6cf";
+}
+
+.figure-LEATHER_1-1:before {
+  content: "\e6d0";
+}
+
+.figure-LEATHER_4-1:before {
+  content: "\e6c8";
+}
+
+.figure-LEATHER_4-4:before {
+  content: "\e6c9";
+}
+
+.figure-LEATHER_2-4:before {
+  content: "\e6cc";
+}
+
+.figure-LEATHER_2-1:before {
+  content: "\e6cd";
+}
+
+.figure-LACES-1:before {
+  content: "\e6c4";
+}
+
+.figure-LACES-2:before {
+  content: "\e6c5";
+}
+
+.figure-LACES-4:before {
+  content: "\e6c6";
+}
+
+.figure-LACES-3:before {
+  content: "\e6c7";
+}
+
+.figure-BINDING-4:before {
+  content: "\e6be";
+}
+
+.figure-BINDING-3:before {
+  content: "\e6c1";
+}
+
+.figure-BINDING-1:before {
+  content: "\e6c2";
+}
+
+.figure-BINDING-2:before {
+  content: "\e6c3";
+}
+
+.figure-FINGER_PAD-1:before {
+  content: "\e6bf";
+}
+
+.figure-FINGER_PAD-4:before {
+  content: "\e6c0";
+}
+

@@ -1,0 +1,284 @@
+@font-face {
+  font-family: "figure"; /* Project id 4313974 */
+  src: url('iconfont.woff2?t=1714963407817') format('woff2'),
+       url('iconfont.woff?t=1714963407817') format('woff'),
+       url('iconfont.ttf?t=1714963407817') format('truetype'),
+       url('iconfont.svg?t=1714963407817#figure') format('svg');
+}
+
+.figure {
+  font-family: "figure" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.figure-STITCHING-1:before {
+  content: "\e764";
+}
+
+.figure-STITCHING-4:before {
+  content: "\e765";
+}
+
+.figure-STITCHING-3:before {
+  content: "\e766";
+}
+
+.figure-STITCHING-2:before {
+  content: "\e763";
+}
+
+.figure-WEB-2:before {
+  content: "\e74c";
+}
+
+.figure-WEB-3:before {
+  content: "\e74a";
+}
+
+.figure-WEB-1:before {
+  content: "\e74b";
+}
+
+.figure-PALM-2:before {
+  content: "\e743";
+}
+
+.figure-PALM-1:before {
+  content: "\e744";
+}
+
+.figure-LEATHER_3-3:before {
+  content: "\e742";
+}
+
+.figure-LEATHER_3-4:before {
+  content: "\e745";
+}
+
+.figure-LEATHER_3-1:before {
+  content: "\e746";
+}
+
+.figure-LEATHER_2-3:before {
+  content: "\e747";
+}
+
+.figure-LEATHER_2-2:before {
+  content: "\e748";
+}
+
+.figure-LEATHER_2-1:before {
+  content: "\e749";
+}
+
+.figure-LEATHER_1-2:before {
+  content: "\e740";
+}
+
+.figure-LEATHER_1-1:before {
+  content: "\e741";
+}
+
+.figure-WRIST-1:before {
+  content: "\e71b";
+}
+
+.figure-WRIST-2:before {
+  content: "\e71c";
+}
+
+.figure-WRIST-4:before {
+  content: "\e71d";
+}
+
+.figure-LACES-1:before {
+  content: "\e6ff";
+}
+
+.figure-LACES-3:before {
+  content: "\e700";
+}
+
+.figure-LACES-2:before {
+  content: "\e701";
+}
+
+.figure-LACES-4:before {
+  content: "\e702";
+}
+
+.figure-HOME_PLATE-2:before {
+  content: "\e6fc";
+}
+
+.figure-HOME_PLATE-1:before {
+  content: "\e6fd";
+}
+
+.figure-WINGTIP_THUMB-2:before {
+  content: "\e6b8";
+}
+
+.figure-WINGTIP_THUMB-3:before {
+  content: "\e6b9";
+}
+
+.figure-WINGTIP_THUMB-1:before {
+  content: "\e6ba";
+}
+
+.figure-WINGTIP_PINKY-4:before {
+  content: "\e6bb";
+}
+
+.figure-WINGTIP_PINKY-3:before {
+  content: "\e6bc";
+}
+
+.figure-WELTING-3:before {
+  content: "\e6bd";
+}
+
+.figure-WELTING-1:before {
+  content: "\e6be";
+}
+
+.figure-WELTING-4:before {
+  content: "\e6bf";
+}
+
+.figure-WELTING-2:before {
+  content: "\e6c0";
+}
+
+.figure-LEATHER_7-3:before {
+  content: "\e6b4";
+}
+
+.figure-PALM-3:before {
+  content: "\e6a9";
+}
+
+.figure-PALM-4:before {
+  content: "\e6ac";
+}
+
+.figure-LOGO_COLOR-2:before {
+  content: "\e6ad";
+}
+
+.figure-LOGO_COLOR-1:before {
+  content: "\e6ae";
+}
+
+.figure-LEATHER_8-4:before {
+  content: "\e6af";
+}
+
+.figure-LEATHER_8-1:before {
+  content: "\e6b0";
+}
+
+.figure-LEATHER_8-3:before {
+  content: "\e6b1";
+}
+
+.figure-LEATHER_7-4:before {
+  content: "\e6b2";
+}
+
+.figure-LEATHER_7-1:before {
+  content: "\e6b3";
+}
+
+.figure-EATHER_3-3:before {
+  content: "\e69c";
+}
+
+.figure-EATHER_3-1:before {
+  content: "\e69d";
+}
+
+.figure-LEATHER_2-4:before {
+  content: "\e6a1";
+}
+
+.figure-LEATHER_6-4:before {
+  content: "\e692";
+}
+
+.figure-LEATHER_6-3:before {
+  content: "\e693";
+}
+
+.figure-LEATHER_6-1:before {
+  content: "\e694";
+}
+
+.figure-LEATHER_5-1:before {
+  content: "\e695";
+}
+
+.figure-LEATHER_5-3:before {
+  content: "\e696";
+}
+
+.figure-LEATHER_5-4:before {
+  content: "\e697";
+}
+
+.figure-LEATHER_4-4:before {
+  content: "\e698";
+}
+
+.figure-LEATHER_4-3:before {
+  content: "\e699";
+}
+
+.figure-LEATHER_4-1:before {
+  content: "\e69a";
+}
+
+.figure-EATHER_3-4:before {
+  content: "\e69b";
+}
+
+.figure-KIP_PALM_LINER-3:before {
+  content: "\e68e";
+}
+
+.figure-KIP_PALM_LINER-2:before {
+  content: "\e68f";
+}
+
+.figure-LEATHER_1-3:before {
+  content: "\e687";
+}
+
+.figure-KIP_PALM_LINER-1:before {
+  content: "\e68c";
+}
+
+.figure-KIP_PALM_LINER-4:before {
+  content: "\e68d";
+}
+
+.figure-BINDING-3:before {
+  content: "\e681";
+}
+
+.figure-BINDING-2:before {
+  content: "\e682";
+}
+
+.figure-BINDING-4:before {
+  content: "\e683";
+}
+
+.figure-BINDING-1:before {
+  content: "\e684";
+}
+

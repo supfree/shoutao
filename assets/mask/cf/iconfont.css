@@ -1,0 +1,132 @@
+@font-face {
+  font-family: "figure"; /* Project id 4320349 */
+  src: url('iconfont.woff2?t=1714963240127') format('woff2'),
+       url('iconfont.woff?t=1714963240127') format('woff'),
+       url('iconfont.ttf?t=1714963240127') format('truetype'),
+       url('iconfont.svg?t=1714963240127#figure') format('svg');
+}
+
+.figure {
+  font-family: "figure" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.figure-STITCHING-1:before {
+  content: "\e760";
+}
+
+.figure-STITCHING-3:before {
+  content: "\e761";
+}
+
+.figure-STITCHING-4:before {
+  content: "\e762";
+}
+
+.figure-STITCHING-2:before {
+  content: "\e763";
+}
+
+.figure-CROWN_COLOR-1:before {
+  content: "\e74a";
+}
+
+.figure-CROWN_COLOR-3:before {
+  content: "\e74b";
+}
+
+.figure-CROWN_COLOR-4:before {
+  content: "\e74c";
+}
+
+.figure-WRIST-1:before {
+  content: "\e718";
+}
+
+.figure-WRIST-4:before {
+  content: "\e719";
+}
+
+.figure-WEB-4:before {
+  content: "\e6cb";
+}
+
+.figure-PALM-3:before {
+  content: "\e6d0";
+}
+
+.figure-WINGTIP_THUMB-2:before {
+  content: "\e6c4";
+}
+
+.figure-WELTING-2:before {
+  content: "\e6c5";
+}
+
+.figure-WELTING-4:before {
+  content: "\e6c6";
+}
+
+.figure-WELTING-1:before {
+  content: "\e6c7";
+}
+
+.figure-WEB-2:before {
+  content: "\e6c8";
+}
+
+.figure-WEB-1:before {
+  content: "\e6c9";
+}
+
+.figure-WEB-3:before {
+  content: "\e6ca";
+}
+
+.figure-BINDING-1:before {
+  content: "\e6b4";
+}
+
+.figure-BINDING-4:before {
+  content: "\e6bf";
+}
+
+.figure-BINDING-3:before {
+  content: "\e6c0";
+}
+
+.figure-BINDING-2:before {
+  content: "\e6c1";
+}
+
+.figure-LEATHER_1-4:before {
+  content: "\e6b7";
+}
+
+.figure-LEATHER_1-1:before {
+  content: "\e6b8";
+}
+
+.figure-LEATHER_1-2:before {
+  content: "\e6b9";
+}
+
+.figure-LACES-3:before {
+  content: "\e6b6";
+}
+
+.figure-LACES-4:before {
+  content: "\e6ba";
+}
+
+.figure-LACES-2:before {
+  content: "\e6bb";
+}
+
+.figure-LACES-1:before {
+  content: "\e6bc";
+}
+

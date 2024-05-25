@@ -1,0 +1,255 @@
+@font-face {
+  font-family: "figure"; /* Project id 4511901 */
+  src: url('iconfont.woff2?t=1714962924672') format('woff2'),
+       url('iconfont.woff?t=1714962924672') format('woff'),
+       url('iconfont.ttf?t=1714962924672') format('truetype');
+}
+
+.figure {
+  font-family: "figure" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.figure-STITCHING-2:before {
+  content: "\e764";
+}
+
+.figure-STITCHING-1:before {
+  content: "\e765";
+}
+
+.figure-STITCHING-3:before {
+  content: "\e766";
+}
+
+.figure-STITCHING-4:before {
+  content: "\e767";
+}
+
+.figure-LEATHER_3-3:before {
+  content: "\e73c";
+}
+
+.figure-LEATHER_3-1:before {
+  content: "\e73d";
+}
+
+.figure-LEATHER_3-4:before {
+  content: "\e73e";
+}
+
+.figure-WEB-1:before {
+  content: "\e743";
+}
+
+.figure-WEB-3:before {
+  content: "\e744";
+}
+
+.figure-WEB-2:before {
+  content: "\e745";
+}
+
+.figure-WELTING-1:before {
+  content: "\e73f";
+}
+
+.figure-WELTING-3:before {
+  content: "\e740";
+}
+
+.figure-WELTING-4:before {
+  content: "\e741";
+}
+
+.figure-WELTING-2:before {
+  content: "\e742";
+}
+
+.figure-HOME_PLATE-1:before {
+  content: "\e73a";
+}
+
+.figure-HOME_PLATE-2:before {
+  content: "\e73b";
+}
+
+.figure-WINGTIP_THUMB-2:before {
+  content: "\e737";
+}
+
+.figure-WINGTIP_THUMB-1:before {
+  content: "\e738";
+}
+
+.figure-WINGTIP_THUMB-3:before {
+  content: "\e739";
+}
+
+.figure-WRIST-4:before {
+  content: "\e734";
+}
+
+.figure-WRIST-2:before {
+  content: "\e735";
+}
+
+.figure-WRIST-1:before {
+  content: "\e736";
+}
+
+.figure-LEATHER_8-4:before {
+  content: "\e731";
+}
+
+.figure-LEATHER_8-1:before {
+  content: "\e732";
+}
+
+.figure-LEATHER_8-3:before {
+  content: "\e733";
+}
+
+.figure-LOGO_COLOR-1:before {
+  content: "\e72f";
+}
+
+.figure-LOGO_COLOR-2:before {
+  content: "\e730";
+}
+
+.figure-PALM-2:before {
+  content: "\e72b";
+}
+
+.figure-PALM-3:before {
+  content: "\e72c";
+}
+
+.figure-PALM-1:before {
+  content: "\e72d";
+}
+
+.figure-PALM-4:before {
+  content: "\e72e";
+}
+
+.figure-WINGTIP_PINKY-4:before {
+  content: "\e721";
+}
+
+.figure-WINGTIP_PINKY-3:before {
+  content: "\e722";
+}
+
+.figure-LEATHER_5-4:before {
+  content: "\e719";
+}
+
+.figure-LEATHER_5-3:before {
+  content: "\e71a";
+}
+
+.figure-LEATHER_4-4:before {
+  content: "\e71b";
+}
+
+.figure-LEATHER_4-1:before {
+  content: "\e71c";
+}
+
+.figure-LEATHER_4-3:before {
+  content: "\e71d";
+}
+
+.figure-LEATHER_7-4:before {
+  content: "\e712";
+}
+
+.figure-LEATHER_7-3:before {
+  content: "\e713";
+}
+
+.figure-LEATHER_7-1:before {
+  content: "\e714";
+}
+
+.figure-LEATHER_6-1:before {
+  content: "\e715";
+}
+
+.figure-LEATHER_6-3:before {
+  content: "\e716";
+}
+
+.figure-LEATHER_6-4:before {
+  content: "\e717";
+}
+
+.figure-LEATHER_5-1:before {
+  content: "\e718";
+}
+
+.figure-LACES-3:before {
+  content: "\e70c";
+}
+
+.figure-LACES-1:before {
+  content: "\e70d";
+}
+
+.figure-LACES-2:before {
+  content: "\e70e";
+}
+
+.figure-LACES-4:before {
+  content: "\e70f";
+}
+
+.figure-LEATHER_1-3:before {
+  content: "\e70b";
+}
+
+.figure-LEATHER_1-2:before {
+  content: "\e709";
+}
+
+.figure-LEATHER_1-1:before {
+  content: "\e70a";
+}
+
+.figure-LEATHER_2-3:before {
+  content: "\e706";
+}
+
+.figure-LEATHER_2-1:before {
+  content: "\e707";
+}
+
+.figure-LEATHER_2-2:before {
+  content: "\e708";
+}
+
+.figure-LEATHER_2-4:before {
+  content: "\e705";
+}
+
+.figure-BINDING-2:before {
+  content: "\e701";
+}
+
+.figure-BINDING-4:before {
+  content: "\e702";
+}
+
+.figure-BINDING-1:before {
+  content: "\e703";
+}
+
+.figure-BINDING-3:before {
+  content: "\e704";
+}
+

@@ -1,0 +1,108 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4325207 */
+  src: url('iconfont.woff2?t=1699603903871') format('woff2'),
+       url('iconfont.woff?t=1699603903871') format('woff'),
+       url('iconfont.ttf?t=1699603903871') format('truetype'),
+       url('iconfont.svg?t=1699603903871#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.figure-LACES-1:before {
+  content: "\e6ee";
+}
+
+.figure-LACES-3:before {
+  content: "\e6ef";
+}
+
+.figure-LACES-2:before {
+  content: "\e6f0";
+}
+
+.figure-LEATHER_1-1:before {
+  content: "\e6eb";
+}
+
+.figure-LEATHER_1-2:before {
+  content: "\e6ec";
+}
+
+.figure-LEATHER_1-3:before {
+  content: "\e6ed";
+}
+
+.figure-PALM-3:before {
+  content: "\e6df";
+}
+
+.figure-PALM-1:before {
+  content: "\e6e8";
+}
+
+.figure-LOGO_COLOR-1:before {
+  content: "\e6e9";
+}
+
+.figure-LOGO_COLOR-2:before {
+  content: "\e6ea";
+}
+
+.figure-WRIST-1:before {
+  content: "\e6e2";
+}
+
+.figure-WRIST-2:before {
+  content: "\e6e3";
+}
+
+.figure-WEB-3:before {
+  content: "\e6e1";
+}
+
+.figure-WEB-1:before {
+  content: "\e6e4";
+}
+
+.figure-WEB-2:before {
+  content: "\e6e5";
+}
+
+.figure-STITCHING-3:before {
+  content: "\e6e0";
+}
+
+.figure-STITCHING-1:before {
+  content: "\eeee";
+}
+
+.figure-STITCHING-2:before {
+  content: "\e6e7";
+}
+
+.figure-CROWN-1:before {
+  content: "\e6db";
+}
+
+.figure-CROWN-2:before {
+  content: "\e6dc";
+}
+
+.figure-BINDING-3:before {
+  content: "\e6da";
+}
+
+.figure-BINDING-1:before {
+  content: "\e6dd";
+}
+
+.figure-BINDING-2:before {
+  content: "\e6de";
+}
+

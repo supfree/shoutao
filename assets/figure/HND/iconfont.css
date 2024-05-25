@@ -1,0 +1,120 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4325194 */
+  src: url('iconfont.woff2?t=1699601809229') format('woff2'),
+       url('iconfont.woff?t=1699601809229') format('woff'),
+       url('iconfont.ttf?t=1699601809229') format('truetype'),
+       url('iconfont.svg?t=1699601809229#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.figure-WEB-3:before {
+  content: "\e6e4";
+}
+
+.figure-WEB-1:before {
+  content: "\e6e5";
+}
+
+.figure-WEB-2:before {
+  content: "\e6e6";
+}
+
+.figure-WRIST_STRAP-1:before {
+  content: "\e6e2";
+}
+
+.figure-WRIST_STRAP-2:before {
+  content: "\e6e3";
+}
+
+.figure-FINGER_HOOD-1:before {
+  content: "\e6d0";
+}
+
+.figure-FINGER_HOOD-2:before {
+  content: "\e6df";
+}
+
+.figure-CROWN-2:before {
+  content: "\e6e0";
+}
+
+.figure-CROWN-1:before {
+  content: "\e6e1";
+}
+
+.figure-LACES-3:before {
+  content: "\e6d1";
+}
+
+.figure-LACES-1:before {
+  content: "\e6dd";
+}
+
+.figure-LACES-2:before {
+  content: "\e6de";
+}
+
+.figure-LOGO_COLOR-2:before {
+  content: "\e6d3";
+}
+
+.figure-LOGO_COLOR-1:before {
+  content: "\e6da";
+}
+
+.figure-LEATHER_1-1:before {
+  content: "\e6d2";
+}
+
+.figure-LEATHER_1-3:before {
+  content: "\e6db";
+}
+
+.figure-LEATHER_1-2:before {
+  content: "\e6dc";
+}
+
+.figure-PALM-3:before {
+  content: "\e6d5";
+}
+
+.figure-PALM-1:before {
+  content: "\e6d4";
+}
+
+.figure-PALM-2:before {
+  content: "\e6d9";
+}
+
+.figure-STITCHING-3:before {
+  content: "\e6d6";
+}
+
+.figure-STITCHING-1:before {
+  content: "\e6d7";
+}
+
+.figure-STITCHING-2:before {
+  content: "\e6d8";
+}
+
+.figure-BINDING-3:before {
+  content: "\e6cd";
+}
+
+.figure-BINDING-2:before {
+  content: "\e6ce";
+}
+
+.figure-BINDING-1:before {
+  content: "\e6cf";
+}
+
