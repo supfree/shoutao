@@ -105,12 +105,14 @@
                           <div class="logo-img" :style="`background-image:url(/images/base/logo_color/${buyarr.productId}/${index+1}.png)`"/>
                           <div class="logo-svg" :style="getLogoColor(index)"/>
                       </div>
-                      <!-- 拇指圈LOGO-->
-                      <div style="position:relative;z-index:20;" v-if="tabIndex==2&&index==0">
-                          <div class="logo-svg" :style="`top:575px;left:555px;position:absolute;width:200px;height:185px;background-size:cover;background-image:url(/images/base/thumb_logo/${buyarr.productId}/${getBaseValue('拇指圈LOGO').replace(' ','%20')}-1.png)`"/>
+                      <!-- 本垒小块-->
+                      <div style="position:relative;z-index:20;" v-if="getBaseValue('拇指圈LOGO')=='Aces logo'||getBaseValue('拇指圈LOGO')=='定制本垒数字'">
+                          <div class="logo-img" :style="`background-image:url(/images/base/home_plate/${buyarr.productId}/${index+1}.png)`"/>
                       </div>
-                      <div style="position:relative;z-index:20;" v-if="tabIndex==2&&index==1">
-                          <div class="logo-svg" :style="`top:570px;left:480px;position:absolute;width:200px;height:185px;background-size:cover;background-image:url(/images/base/thumb_logo/${buyarr.productId}/${getBaseValue('拇指圈LOGO').replace(' ','%20')}-2.png)`"/>
+                      <!-- 本垒LOGO-->
+                      <div style="position:relative;z-index:20;">
+                          <div class="logo-img" :style="`background-image:url(/images/base/plate_logo/${buyarr.productId}/${index+1}.png)`" v-if="getBaseValue('拇指圈LOGO')=='Aces logo'"/>
+                          <div class="logo-svg" :style="getPlateLogoColor(index)" v-if="getBaseValue('拇指圈LOGO')=='Aces logo'"/>
                       </div>
                       <!-- 手掌烫印 logo-->
                       <div style="position:relative;z-index:20;">

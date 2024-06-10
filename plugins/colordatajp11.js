@@ -112,7 +112,7 @@ module.exports={
       {showtxt:'数字',showvalue:'数字'},
       {showtxt:'国旗',showvalue:'国旗'},
     ]},
-		{title:'数字',showtype:"text",placeN:'jumbo_number',style:[],activeI:'null',colorlist:[
+		{title:'数字',showtype:"text",placeN:'jumbo_number',style:[{top:200,left:522,size:60,transform:305},{top:167,left:440,size:100,transform:270}],activeI:'null',colorlist:[
       {colorV:'#5C4032',colorN:'CC28'},
       {colorV:'#772F09',colorN:'PA28'},
       {colorV:'#817F42',colorN:'PA42'},
@@ -137,7 +137,7 @@ module.exports={
       {colorV:'#D49F5D',colorN:'SyL28'},
       {colorV:'#827263',colorN:'SYQ28'},
     ]},
-		{title:'定制本垒数字',showtype:"text",placeN:'custom_plate_number',style:[],activeI:'null',colorlist:[
+		{title:'定制本垒数字',showtype:"text",placeN:'custom_plate_number',style:[{top:190,left:542,size:26,transform:300},{top:147,left:424,size:55,transform:270}],activeI:'null',colorlist:[
       {colorV:'#5C4032',colorN:'CC28'},
       {colorV:'#772F09',colorN:'PA28'},
       {colorV:'#817F42',colorN:'PA42'},

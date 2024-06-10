@@ -142,6 +142,7 @@ Vue.prototype.getColorStyle = function (name) {
     }
 }
 
+
 Vue.prototype.getDir = function (arr, title) {
     const index = arr.findIndex(item => item.title == title);
     const name = arr[index].placeN;
@@ -261,6 +262,19 @@ Vue.prototype.getPadHoodStyle = function () {
 Vue.prototype.getLogoColor = function (index) {
     const item = this.poparr[1].typearr.filter(item => item.titles == 'LOGO颜色')[0];
     const style = `-webkit-mask: url(/images/base/logo_color/${this.buyarr.productId}/${index + 1}.svg) no-repeat center;mask: url(/images/base/logo_color/${this.buyarr.productId}/${index + 1}.svg) no-repeat center;`;
+    if (item.colorv != '') {
+        return `background-color:${item.colorv};` + style;
+    } else if (item.leather != '') {
+        return `background-image: url("/images/base/leather/${item.leather_index}/${item.leather}.jpg");background-size:30% 30%;` + style;
+    } else {
+        return `background-color: transparent;` + style;
+    }
+}
+
+//本垒LOGO颜色
+Vue.prototype.getPlateLogoColor = function (index) {
+    const item = this.poparr[1].typearr.filter(item => item.titles == 'LOGO颜色')[0];
+    const style = `-webkit-mask: url(/images/base/plate_logo/${this.buyarr.productId}/${index + 1}.svg) no-repeat center;mask: url(/images/base/logo_color/${this.buyarr.productId}/${index + 1}.svg) no-repeat center;`;
     if (item.colorv != '') {
         return `background-color:${item.colorv};` + style;
     } else if (item.leather != '') {
