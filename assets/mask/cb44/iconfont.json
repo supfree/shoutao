@@ -6,18 +6,53 @@
   "description": "",
   "glyphs": [
     {
-      "icon_id": "40193570",
+      "icon_id": "42157517",
       "name": "STITCHING-2",
       "font_class": "STITCHING-2",
-      "unicode": "e75e",
-      "unicode_decimal": 59230
+      "unicode": "e78a",
+      "unicode_decimal": 59274
     },
     {
-      "icon_id": "40193569",
+      "icon_id": "42157516",
       "name": "STITCHING-1",
       "font_class": "STITCHING-1",
-      "unicode": "e75f",
-      "unicode_decimal": 59231
+      "unicode": "e78b",
+      "unicode_decimal": 59275
+    },
+    {
+      "icon_id": "41618113",
+      "name": "WEB-3",
+      "font_class": "WEB-3",
+      "unicode": "e781",
+      "unicode_decimal": 59265
+    },
+    {
+      "icon_id": "41618115",
+      "name": "WEB-2",
+      "font_class": "WEB-2",
+      "unicode": "e77f",
+      "unicode_decimal": 59263
+    },
+    {
+      "icon_id": "41618114",
+      "name": "WEB-1",
+      "font_class": "WEB-1",
+      "unicode": "e780",
+      "unicode_decimal": 59264
+    },
+    {
+      "icon_id": "40769375",
+      "name": "LEATHER_1-2",
+      "font_class": "LEATHER_1-2",
+      "unicode": "e76e",
+      "unicode_decimal": 59246
+    },
+    {
+      "icon_id": "40769374",
+      "name": "LEATHER_1-1",
+      "font_class": "LEATHER_1-1",
+      "unicode": "e76f",
+      "unicode_decimal": 59247
     },
     {
       "icon_id": "40193568",
@@ -139,13 +174,6 @@
       "unicode_decimal": 59182
     },
     {
-      "icon_id": "40034973",
-      "name": "LEATHER_1-1",
-      "font_class": "LEATHER_1-1",
-      "unicode": "e72f",
-      "unicode_decimal": 59183
-    },
-    {
       "icon_id": "40034972",
       "name": "WINGTIP_PINKY-1",
       "font_class": "WINGTIP_PINKY-1",
@@ -193,13 +221,6 @@
       "font_class": "WINGTIP_THUMB-3",
       "unicode": "e736",
       "unicode_decimal": 59190
-    },
-    {
-      "icon_id": "40034965",
-      "name": "LEATHER_1-2",
-      "font_class": "LEATHER_1-2",
-      "unicode": "e737",
-      "unicode_decimal": 59191
     },
     {
       "icon_id": "40034963",

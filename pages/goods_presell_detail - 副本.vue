@@ -167,7 +167,7 @@
 						v-for="(item,index) in filterBase(baseinfo)" :key="index">
 						<div class="pp">
 							<span href="javascript:;" @click="handlebaseClick('pre',index)" v-if="index>=1">{{filterBase(baseinfo)[index-1].title}}</span>
-							<span href="javascript:;" @click="handlebaseClick('next',index)" v-if="index<=filterBase(baseinfo).length">{{item.title}}</span>
+							<span href="javascript:;" @click="handlebaseClick('next',index)"><span v-if="index<=filterBase(baseinfo).length-2">下一步</span></span>
 						</div>
             <div class="color-title">{{item.title}}</div>
 						<div class="radio" v-for="(itemson,indexson) in item.selectlist" :key="indexson" v-if="item.showtype == 'radio'">
@@ -191,7 +191,7 @@
 					v-for="(item,index) in filterBase(colorarr)" :key="index">
               		<div class="pp">
               			<span href="javascript:;" @click="handleClick('pre',index)" v-if="index>=1">{{filterBase(colorarr)[index-1].title}}</span>
-              			<span href="javascript:;" @click="handleClick('next',index)" v-if="index<=filterBase(colorarr).length">{{item.title}}</span>
+              			<span href="javascript:;" @click="handleClick('next',index)"><span v-if="index<=filterBase(colorarr).length-2">下一步</span></span>
               		</div>
               		<div class="colors">
                     <div class="color-title">{{item.title}}</div>
@@ -224,11 +224,11 @@
 			  		v-for="(item,index) in filterBase(colortxtarr)" :key="index">
 			  		<div class="pp">
 			  			<span href="javascript:;" @click="handlePerClick('pre',index)" v-if="index>=1">{{filterBase(colortxtarr)[index-1].title}}</span>
-			  			<span href="javascript:;" @click="handlePerClick('next',index)" v-if="index<=filterBase(colortxtarr).length">{{item.title}}</span>
+			  			<span href="javascript:;" @click="handlePerClick('next',index)"><span v-if="index<=filterBase(colortxtarr).length-2">下一步</span></span>
 			  		</div>
             <div class="color-title">{{item.title}}<span v-if="item.title=='内里文字'">（位置在中间）</span></div>
 					<div class="custom-text" v-if="item.showtype == 'text'">
-					  <input id="txtA" class="" type="text" placeholder="最多8个字符" maxlength="8" v-model="filterBase(poparr[2].typearr)[index].txtvalue" @keyup="toB(index,item.placeN,item.title)"/>
+					  <input id="txtA" class="" type="text" :placeholder="item.title=='特殊要求'?'':item.title.includes('数字')?'最多2个字符':'最多8个字符'" :maxlength="item.title=='特殊要求'?100:8" v-model="filterBase(poparr[2].typearr)[index].txtvalue" @keyup="toB(index,item.placeN,item.title)"/>
 					  <label for="" v-if="item.colorlist.length>0">文本颜色</label>
 					  <div class="colors">
 					    <div id="div-5">

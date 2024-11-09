@@ -12,6 +12,7 @@
   },
   "bin": "npm run postinstall",
   "dependencies": {
+    "@nuxt/builder": "^2.18.1",
     "@nuxtjs/auth": "^4.9.1",
     "@nuxtjs/axios": "^5.12.2",
     "cookie-universal-nuxt": "^2.1.4",
@@ -38,7 +39,7 @@
     "cross-env": "^7.0.3",
     "element-theme-chalk": "^2.13.2",
     "node-sass": "^4.14.1",
-    "sass-loader": "^10.0.2",
-    "postcss": "8.2.2"
+    "postcss": "8.2.2",
+    "sass-loader": "^10.0.2"
   }
 }

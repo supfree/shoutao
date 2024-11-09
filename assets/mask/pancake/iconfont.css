@@ -1,8 +1,8 @@
 @font-face {
   font-family: "figure"; /* Project id 4300803 */
-  src: url('iconfont.woff2?t=1714963537670') format('woff2'),
-       url('iconfont.woff?t=1714963537670') format('woff'),
-       url('iconfont.ttf?t=1714963537670') format('truetype');
+  src: url('iconfont.woff2?t=1718719599576') format('woff2'),
+       url('iconfont.woff?t=1718719599576') format('woff'),
+       url('iconfont.ttf?t=1718719599576') format('truetype');
 }
 
 .figure {
@@ -13,16 +13,20 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.figure-LEATHER_1-1:before {
+  content: "\e773";
+}
+
+.figure-LEATHER_1-2:before {
+  content: "\e774";
+}
+
 .figure-STITCHING-2:before {
   content: "\e765";
 }
 
 .figure-STITCHING-1:before {
   content: "\e766";
-}
-
-.figure-LEATHER_1-1:before {
-  content: "\e738";
 }
 
 .figure-HOME_PLATE-1:before {
@@ -51,10 +55,6 @@
 
 .figure-LEATHER_2-2:before {
   content: "\40007";
-}
-
-.figure-LEATHER_1-2:before {
-  content: "\40009";
 }
 
 .figure-LACES-1:before {

@@ -11,34 +11,44 @@ module.exports={
 		// ]},
 	],
 	"colordata":[
-    {title:'LOGO颜色',placeN:'LOGO_COLOR',activeI:'null',colorlist:[,
-    ]},
-    {title:'缝线',placeN:'STITCHING',activeI:'null',colorlist:[
-    ]},
-    {title:'包边',placeN:'BINDING',activeI:'null',colorlist:[
-    ]},
-    {title:'本垒',placeN:'HOME_PLATE',activeI:'null',colorlist:[
-    ]},
-    {title:'编绳',placeN:'LACES',activeI:'null',colorlist:[
-    ]},
     {title:'皮革1',placeN:'LEATHER_1',activeI:'null',colorlist:[
     ]},
     {title:'皮革2',placeN:'LEATHER_2',activeI:'null',colorlist:[
     ]},
     {title:'皮革3',placeN:'LEATHER_3',activeI:'null',colorlist:[
     ]},
+    {title:'拇指小片',placeN:'WINGTIP_THUMB',activeI:'null',colorlist:[
+    ]},
+    {title:'小指小片',placeN:'WINGTIP_PINKY',activeI:'null',colorlist:[
+    ]},
+    {title:'手腕',placeN:'WRIST',activeI:'null',colorlist:[
+    ]},
     {title:'手掌',placeN:'PALM',activeI:'null',colorlist:[
     ]},
     {title:'球挡',placeN:'WEB',activeI:'null',colorlist:[
     ]},
+    {title:'包边',placeN:'BINDING',activeI:'null',colorlist:[
+    ]},
     {title:'夹条',placeN:'WELTING',activeI:'null',colorlist:[
     ]},
-    {title:'小指小片',placeN:'WINGTIP_PINKY',activeI:'null',colorlist:[
+    {title:'编绳',placeN:'LACES',activeI:'null',colorlist:[
     ]},
-    {title:'拇指大片',placeN:'WINGTIP_THUMB',activeI:'null',colorlist:[
+    {title:'本垒',placeN:'HOME_PLATE',activeI:'null',colorlist:[
     ]},
-    {title:'手腕',placeN:'WRIST',activeI:'null',colorlist:[
+    {title:'缝线',placeN:'STITCHING',activeI:'null',colorlist:[
     ]},
+    {title:'LOGO颜色',placeN:'LOGO_COLOR',activeI:'null',colorlist:[,
+    ]},
+
+
+
+
+
+
+  
+
+ 
+
 
 
   ],
@@ -67,6 +77,7 @@ module.exports={
     ]},
     {title:"食指国旗",showtype:"radio",placeN:'flag',activeI:'null',selectlist:[
       {showtxt:'无',showvalue:'无'},
+      {showtxt:'中国',showvalue:'中国'},
       {showtxt:'阿拉巴马',showvalue:'阿拉巴马'},
       {showtxt:'阿拉斯加',showvalue:'阿拉斯加'},
       {showtxt:'亚利桑那',showvalue:'亚利桑那'},
@@ -152,8 +163,9 @@ module.exports={
       {showtxt:'黎巴嫩',showvalue:'黎巴嫩'},
       {showtxt:'巴巴多斯',showvalue:'巴巴多斯'},
       {showtxt:'巴拿马',showvalue:'巴拿马'},
-      {title:"特殊要求",showtype:"text",placeN:'palm_text',activeI:'null',style:[],colorlist:[]},
+      
     ]},
+    {title:"特殊要求",showtype:"text",placeN:'palm_text',activeI:'null',style:[],colorlist:[]},
 	],
 
 	// "colortxtdata":[

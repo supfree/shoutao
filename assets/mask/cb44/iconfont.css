@@ -1,9 +1,9 @@
 @font-face {
   font-family: "figure"; /* Project id 4313969 */
-  src: url('iconfont.woff2?t=1714963455884') format('woff2'),
-       url('iconfont.woff?t=1714963455884') format('woff'),
-       url('iconfont.ttf?t=1714963455884') format('truetype'),
-       url('iconfont.svg?t=1714963455884#figure') format('svg');
+  src: url('iconfont.woff2?t=1729174603754') format('woff2'),
+       url('iconfont.woff?t=1729174603754') format('woff'),
+       url('iconfont.ttf?t=1729174603754') format('truetype'),
+       url('iconfont.svg?t=1729174603754#figure') format('svg');
 }
 
 .figure {
@@ -15,11 +15,31 @@
 }
 
 .figure-STITCHING-2:before {
-  content: "\e75e";
+  content: "\e78a";
 }
 
 .figure-STITCHING-1:before {
-  content: "\e75f";
+  content: "\e78b";
+}
+
+.figure-WEB-3:before {
+  content: "\e781";
+}
+
+.figure-WEB-2:before {
+  content: "\e77f";
+}
+
+.figure-WEB-1:before {
+  content: "\e780";
+}
+
+.figure-LEATHER_1-2:before {
+  content: "\e76e";
+}
+
+.figure-LEATHER_1-1:before {
+  content: "\e76f";
 }
 
 .figure-STITCHING-3:before {
@@ -90,10 +110,6 @@
   content: "\e72e";
 }
 
-.figure-LEATHER_1-1:before {
-  content: "\e72f";
-}
-
 .figure-WINGTIP_PINKY-1:before {
   content: "\e730";
 }
@@ -120,10 +136,6 @@
 
 .figure-WINGTIP_THUMB-3:before {
   content: "\e736";
-}
-
-.figure-LEATHER_1-2:before {
-  content: "\e737";
 }
 
 .figure-LEATHER_1-4:before {

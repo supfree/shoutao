@@ -1,9 +1,9 @@
 @font-face {
   font-family: "figure"; /* Project id 4313974 */
-  src: url('iconfont.woff2?t=1714963407817') format('woff2'),
-       url('iconfont.woff?t=1714963407817') format('woff'),
-       url('iconfont.ttf?t=1714963407817') format('truetype'),
-       url('iconfont.svg?t=1714963407817#figure') format('svg');
+  src: url('iconfont.woff2?t=1729174693111') format('woff2'),
+       url('iconfont.woff?t=1729174693111') format('woff'),
+       url('iconfont.ttf?t=1729174693111') format('truetype'),
+       url('iconfont.svg?t=1729174693111#figure') format('svg');
 }
 
 .figure {
@@ -14,8 +14,36 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.figure-STITCHING-2:before {
+  content: "\e78d";
+}
+
 .figure-STITCHING-1:before {
-  content: "\e764";
+  content: "\e78e";
+}
+
+.figure-KIP_PALM_LINER-2:before {
+  content: "\e77b";
+}
+
+.figure-KIP_PALM_LINER-1:before {
+  content: "\e77a";
+}
+
+.figure-KIP_PALM_LINER-4:before {
+  content: "\e77c";
+}
+
+.figure-KIP_PALM_LINER-3:before {
+  content: "\e77d";
+}
+
+.figure-LEATHER_1-2:before {
+  content: "\e771";
+}
+
+.figure-LEATHER_1-1:before {
+  content: "\e772";
 }
 
 .figure-STITCHING-4:before {
@@ -24,10 +52,6 @@
 
 .figure-STITCHING-3:before {
   content: "\e766";
-}
-
-.figure-STITCHING-2:before {
-  content: "\e763";
 }
 
 .figure-WEB-2:before {
@@ -72,14 +96,6 @@
 
 .figure-LEATHER_2-1:before {
   content: "\e749";
-}
-
-.figure-LEATHER_1-2:before {
-  content: "\e740";
-}
-
-.figure-LEATHER_1-1:before {
-  content: "\e741";
 }
 
 .figure-WRIST-1:before {
@@ -246,24 +262,8 @@
   content: "\e69b";
 }
 
-.figure-KIP_PALM_LINER-3:before {
-  content: "\e68e";
-}
-
-.figure-KIP_PALM_LINER-2:before {
-  content: "\e68f";
-}
-
 .figure-LEATHER_1-3:before {
   content: "\e687";
-}
-
-.figure-KIP_PALM_LINER-1:before {
-  content: "\e68c";
-}
-
-.figure-KIP_PALM_LINER-4:before {
-  content: "\e68d";
 }
 
 .figure-BINDING-3:before {

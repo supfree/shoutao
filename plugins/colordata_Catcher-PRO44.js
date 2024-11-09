@@ -22,9 +22,13 @@ module.exports = {
       {showtxt:'指套',showvalue:'指套'},
       {showtxt:'指垫',showvalue:'指垫'},
     ]},
-    {title:"指垫指套位置",showtype:"radio",placeN:'pad_hood_placement',activeI:'null',selectlist:[
-      {showtxt:'食指',showvalue:'食指'},
-      {showtxt:'中指',showvalue:'中指'},
+    {title:"编绳长度",showtype:"radio",placeN:'lace_length',activeI:'null',selectlist:[
+      {showtxt:'正常',showvalue:'正常'},
+      {showtxt:'长',showvalue:'长'},
+    ]},
+    {title:"手腕内里材质",showtype:"radio",placeN:'wrist_lining',activeI:'null',selectlist:[
+      {showtxt:'传统羊毛垫',showvalue:'传统羊毛垫'},
+      {showtxt:'吸汗垫',showvalue:'吸汗垫'},
     ]},
     {title:"左右手",showtype:"radio",placeN:'throwing_hand',activeI:'null',selectlist:[
       {showtxt:'左',showvalue:'左'},
@@ -41,29 +45,11 @@ module.exports = {
   ],
   "colordata": [
     {
-      title: 'LOGO颜色', placeN: 'LOGO_COLOR', activeI: 'null', colorlist: [
-      ]
-    },
-    {
-      title: '缝线', placeN: 'STITCHING', activeI: 'null', colorlist: [
-      ]
-    },
-    {title:'指垫指套颜色',placeN:'PAD_HOOD',activeI:'null',colorlist:[
-    ]},
-    {
-      title: '包边', placeN: 'BINDING', activeI: 'null', colorlist: [
-      ]
-    },
-    {
-      title: '网格颜色', placeN: 'CROWN', activeI: 'null', colorlist: [
-      ]
-    },
-    {
-      title: '编绳', placeN: 'LACES', activeI: 'null', colorlist: [
-      ]
-    },
-    {
       title: '皮革1', placeN: 'LEATHER_1', activeI: 'null', colorlist: [
+      ]
+    },
+    {
+      title: '手腕', placeN: 'WRIST', activeI: 'null', colorlist: [
       ]
     },
     {
@@ -74,10 +60,37 @@ module.exports = {
       title: '球挡', placeN: 'WEB', activeI: 'null', colorlist: [
       ]
     },
+
+    {title:'指垫指套颜色',placeN:'PAD_HOOD',activeI:'null',colorlist:[
+    ]},
     {
-      title: '手腕', placeN: 'WRIST', activeI: 'null', colorlist: [
+      title: '包边', placeN: 'BINDING', activeI: 'null', colorlist: [
       ]
     },
+
+
+    {
+      title: '编绳', placeN: 'LACES', activeI: 'null', colorlist: [
+      ]
+    },
+
+    {
+      title: '缝线', placeN: 'STITCHING', activeI: 'null', colorlist: [
+      ]
+    },
+
+
+    {
+      title: '虎口', placeN: 'CROWN', activeI: 'null', colorlist: [
+      ]
+    },
+    {
+      title: 'LOGO颜色', placeN: 'LOGO_COLOR', activeI: 'null', colorlist: [
+      ]
+    },
+
+
+
 
   ],
   "colortxtdata": [
@@ -86,7 +99,7 @@ module.exports = {
       {showtxt:'数字',showvalue:'数字'},
       {showtxt:'国旗',showvalue:'国旗'},
     ]},
-    {title:'数字',showtype:"text",placeN:'jumbo_number',style:[],activeI:'null',colorlist:[
+    {title:'数字',showtype:"text",placeN:'jumbo_number',style:[undefined,{top:-80,left:310,size:100,transform:-10}],activeI:'null',colorlist:[
       {colorV:'#5C4032',colorN:'CC28'},
       {colorV:'#772F09',colorN:'PA28'},
       {colorV:'#817F42',colorN:'PA42'},
@@ -134,7 +147,7 @@ module.exports = {
       {showtxt:'Aces logo',showvalue:'Aces logo'},
       {showtxt:'定制数字',showvalue:'定制数字'},
     ]},
-    {title:'定制数字',showtype:"text",placeN:'palm_sign_text',style:[undefined,undefined,{top:-10,left:420,size:90,transform:30}],activeI:'null',colorlist:[]},
+    {title:'定制数字',showtype:"text",placeN:'palm_sign_text',style:[undefined,undefined,{top:190,left:360,size:90,transform:30}],activeI:'null',colorlist:[]},
 		//自定义文本数组中的placeN的值，跟轮播图中的input的id名统一起来
 		{title:'拇指文字',showtype:"text",placeN:'thumb_text',style:[undefined,{top:40,left:360,size:26,transform:0}],activeI:'null',colorlist:[
       {colorV:'#5C4032',colorN:'CC28'},
@@ -190,8 +203,9 @@ module.exports = {
 			{showtxt:'Script',showvalue:'Script'},
 			{showtxt:'Block',showvalue:'Block'},
     ]},
-    {title:"食指国旗",showtype:"radio",placeN:'flag',activeI:'null',style:[{left:75,top:330,height:70,width:140,transform:90}],selectlist:[
+    {title:"小指国旗",showtype:"radio",placeN:'flag',activeI:'null',style:[{left:70,top:360,height:70,width:140,transform:90}],selectlist:[
       {showtxt:'无',showvalue:'无'},
+      {showtxt:'中国',showvalue:'中国'},
       {showtxt:'阿拉巴马',showvalue:'阿拉巴马'},
       {showtxt:'阿拉斯加',showvalue:'阿拉斯加'},
       {showtxt:'亚利桑那',showvalue:'亚利桑那'},
@@ -277,8 +291,9 @@ module.exports = {
       {showtxt:'黎巴嫩',showvalue:'黎巴嫩'},
       {showtxt:'巴巴多斯',showvalue:'巴巴多斯'},
       {showtxt:'巴拿马',showvalue:'巴拿马'},
-      {title:"特殊要求",showtype:"text",placeN:'palm_text',activeI:'null',style:[],colorlist:[]},
+      
     ]},
+    {title:"特殊要求",showtype:"text",placeN:'palm_text',activeI:'null',style:[],colorlist:[]},
   ],
   // "colortxtdata":[
   // 	{colorV:'#884899',colorN:'紫色',activeI:'null',placeN:'customtext'},

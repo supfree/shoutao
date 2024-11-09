@@ -6,18 +6,60 @@
   "description": "",
   "glyphs": [
     {
-      "icon_id": "40193694",
+      "icon_id": "42189188",
       "name": "STITCHING-2",
       "font_class": "STITCHING-2",
-      "unicode": "e764",
-      "unicode_decimal": 59236
+      "unicode": "e790",
+      "unicode_decimal": 59280
     },
     {
-      "icon_id": "40193693",
+      "icon_id": "42157527",
       "name": "STITCHING-1",
       "font_class": "STITCHING-1",
-      "unicode": "e765",
-      "unicode_decimal": 59237
+      "unicode": "e78f",
+      "unicode_decimal": 59279
+    },
+    {
+      "icon_id": "41569717",
+      "name": "KIP_PALM_LINER-2",
+      "font_class": "KIP_PALM_LINER-2",
+      "unicode": "e779",
+      "unicode_decimal": 59257
+    },
+    {
+      "icon_id": "41569718",
+      "name": "KIP_PALM_LINER-3",
+      "font_class": "KIP_PALM_LINER-3",
+      "unicode": "e77a",
+      "unicode_decimal": 59258
+    },
+    {
+      "icon_id": "41569716",
+      "name": "KIP_PALM_LINER-4",
+      "font_class": "KIP_PALM_LINER-4",
+      "unicode": "e778",
+      "unicode_decimal": 59256
+    },
+    {
+      "icon_id": "41569715",
+      "name": "KIP_PALM_LINER-1",
+      "font_class": "KIP_PALM_LINER-1",
+      "unicode": "e77b",
+      "unicode_decimal": 59259
+    },
+    {
+      "icon_id": "40769413",
+      "name": "LEATHER_1-2",
+      "font_class": "LEATHER_1-2",
+      "unicode": "e772",
+      "unicode_decimal": 59250
+    },
+    {
+      "icon_id": "40769412",
+      "name": "LEATHER_1-1",
+      "font_class": "LEATHER_1-1",
+      "unicode": "e773",
+      "unicode_decimal": 59251
     },
     {
       "icon_id": "40193692",
@@ -354,20 +396,6 @@
       "font_class": "LEATHER_1-3",
       "unicode": "e70b",
       "unicode_decimal": 59147
-    },
-    {
-      "icon_id": "39974106",
-      "name": "LEATHER_1-2",
-      "font_class": "LEATHER_1-2",
-      "unicode": "e709",
-      "unicode_decimal": 59145
-    },
-    {
-      "icon_id": "39974105",
-      "name": "LEATHER_1-1",
-      "font_class": "LEATHER_1-1",
-      "unicode": "e70a",
-      "unicode_decimal": 59146
     },
     {
       "icon_id": "39974117",

@@ -11,14 +11,6 @@ module.exports={
 		// ]},
 	],
 	"colordata":[
-        {title:'LOGO颜色',placeN:'LOGO_COLOR',activeI:'null',colorlist:[
-        ]},
-    {title:'包边',placeN:'BINDING',activeI:'null',colorlist:[
-    ]},
-    {title:'本垒',placeN:'HOME_PLATE',activeI:'null',colorlist:[
-    ]},
-    {title:'编绳',placeN:'LACES',activeI:'null',colorlist:[
-    ]},
     {title:'皮革1',placeN:'LEATHER_1',activeI:'null',colorlist:[
     ]},
     {title:'皮革2',placeN:'LEATHER_2',activeI:'null',colorlist:[
@@ -35,20 +27,42 @@ module.exports={
     ]},
     {title:'皮革8',placeN:'LEATHER_8',activeI:'null',colorlist:[
     ]},
-    {title:'手掌',placeN:'PALM',activeI:'null',colorlist:[
-    ]},
-    {title:'补色',placeN:'PATCH_COLOR',activeI:'null',colorlist:[
-    ]},
-    {title:'球挡',placeN:'WEB',activeI:'null',colorlist:[
-    ]},
-    {title:'夹条',placeN:'WELTING',activeI:'null',colorlist:[
+
+    {title:'拇指小片',placeN:'WINGTIP_THUMB',activeI:'null',colorlist:[
     ]},
     {title:'小指小片',placeN:'WINGTIP_PINKY',activeI:'null',colorlist:[
     ]},
-    {title:'拇指大片',placeN:'WINGTIP_THUMB',activeI:'null',colorlist:[
-    ]},
+
     {title:'手腕',placeN:'WRIST',activeI:'null',colorlist:[
     ]},
+    {title:'手掌',placeN:'PALM',activeI:'null',colorlist:[
+    ]},
+    {title:'球挡',placeN:'WEB',activeI:'null',colorlist:[
+    ]},
+    {title:'包边',placeN:'BINDING',activeI:'null',colorlist:[
+    ]},
+    {title:'夹条',placeN:'WELTING',activeI:'null',colorlist:[
+    ]},
+    {title:'编绳',placeN:'LACES',activeI:'null',colorlist:[
+    ]},
+    {title:'本垒',placeN:'HOME_PLATE',activeI:'null',colorlist:[
+    ]},
+    {title:'补色',placeN:'PATCH_COLOR',activeI:'null',colorlist:[
+    ]},
+
+    {title:'LOGO颜色',placeN:'LOGO_COLOR',activeI:'null',colorlist:[
+    ]},
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
 
 

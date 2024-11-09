@@ -9,6 +9,14 @@ module.exports = {
       {showtxt:'绣花章',showvalue:'绣花章'},
       {showtxt:'皮章',showvalue:'皮章'}
     ]},
+    {title:"编绳长度",showtype:"radio",placeN:'lace_length',activeI:'null',selectlist:[
+      {showtxt:'正常',showvalue:'正常'},
+      {showtxt:'长',showvalue:'长'},
+    ]},
+    {title:"手腕内里材质",showtype:"radio",placeN:'wrist_lining',activeI:'null',selectlist:[
+      {showtxt:'传统羊毛垫',showvalue:'传统羊毛垫'},
+      {showtxt:'吸汗垫',showvalue:'吸汗垫'},
+    ]},
     {title:"左右手",showtype:"radio",placeN:'throwing_hand',activeI:'null',selectlist:[
       {showtxt:'左',showvalue:'左'},
       {showtxt:'右',showvalue:'右'},
@@ -17,11 +25,6 @@ module.exports = {
       {showtxt:'专业硬度',showvalue:'专业硬度'},
       {showtxt:'标准',showvalue:'标准'},
     ]},
-    {title:"球挡样式",showtype:"radio",placeN:'web_style',activeI:'null',selectlist:[
-      {showtxt:'2-Piece Web',showvalue:'2-Piece Web'},
-      {showtxt:'H-Web',showvalue:'H-Web'},
-      {showtxt:'Post Web',showvalue:'Post Web'},
-    ]},
     // {title:"WRIST TYPE",showtype:"switch",placeN:'shoubei',activeI:'null',selectlist:[
     // 	{showtxt:'Traditional',showvalue:'1',shownote:"Two pieces of leather for wrist and thumb."},
 
@@ -29,27 +32,16 @@ module.exports = {
   ],
   "colordata": [
     {
-      title: 'LOGO颜色', placeN: 'LOGO_COLOR', activeI: 'null', colorlist: [
-      ]
-    },
-    {
-      title: '缝线', placeN: 'STITCHING', activeI: 'null', colorlist: [
-      ]
-    },
-    {
-      title: '包边', placeN: 'BINDING', activeI: 'null', colorlist: [
-      ]
-    },
-    {
-      title: '网格颜色', placeN: 'CROWN_COLOR', activeI: 'null', colorlist: [
-      ]
-    },
-    {
-      title: '编绳', placeN: 'LACES', activeI: 'xiedai', colorlist: [
-      ]
-    },
-    {
       title: '皮革1', placeN: 'LEATHER_1', activeI: 'null', colorlist: [
+      ]
+    },
+    {
+      title: '拇指小片', placeN: 'WINGTIP_THUMB', activeI: 'null', colorlist: [
+      ]
+    },
+
+    {
+      title: '手腕', placeN: 'WRIST', activeI: 'null', colorlist: [
       ]
     },
     {
@@ -61,17 +53,39 @@ module.exports = {
       ]
     },
     {
+      title: '包边', placeN: 'BINDING', activeI: 'null', colorlist: [
+      ]
+    },
+    {
       title: '夹条', placeN: 'WELTING', activeI: 'null', colorlist: [
       ]
     },
     {
-      title: '拇指大片', placeN: 'WINGTIP_THUMB', activeI: 'null', colorlist: [
+      title: '编绳', placeN: 'LACES', activeI: 'xiedai', colorlist: [
       ]
     },
     {
-      title: '手腕', placeN: 'WRIST', activeI: 'null', colorlist: [
+      title: '缝线', placeN: 'STITCHING', activeI: 'null', colorlist: [
       ]
     },
+
+    {
+      title: '虎口', placeN: 'CROWN_COLOR', activeI: 'null', colorlist: [
+      ]
+    },
+
+
+    {
+      title: 'LOGO颜色', placeN: 'LOGO_COLOR', activeI: 'null', colorlist: [
+      ]
+    },
+
+
+
+
+
+
+
   ],
   "colortxtdata": [
     {title:"拇指圈LOGO",showtype:"radio",placeN:'thumb_logo',activeI:'null',selectlist:[
@@ -79,7 +93,7 @@ module.exports = {
       {showtxt:'数字',showvalue:'数字'},
       {showtxt:'国旗',showvalue:'国旗'},
     ]},
-    {title:'数字',showtype:"text",placeN:'jumbo_number',style:[],activeI:'null',colorlist:[
+    {title:'数字',showtype:"text",placeN:'jumbo_number',style:[undefined,{top:-200,left:-20,size:100,transform:270}],activeI:'null',colorlist:[
       {colorV:'#5C4032',colorN:'CC28'},
       {colorV:'#772F09',colorN:'PA28'},
       {colorV:'#817F42',colorN:'PA42'},
@@ -127,9 +141,9 @@ module.exports = {
       {showtxt:'Aces logo',showvalue:'Aces logo'},
       {showtxt:'定制数字',showvalue:'定制数字'},
     ]},
-    {title:'定制数字',showtype:"text",placeN:'palm_sign_text',style:[undefined,undefined,{top:10,left:420,size:70,transform:0}],activeI:'null',colorlist:[]},
+    {title:'定制数字',showtype:"text",placeN:'palm_sign_text',style:[undefined,undefined,{top:50,left:420,size:70,transform:0}],activeI:'null',colorlist:[]},
 		//自定义文本数组中的placeN的值，跟轮播图中的input的id名统一起来
-		{title:'拇指文字',showtype:"text",placeN:'thumb_text',style:[undefined,{top:-50,left:400,size:40,transform:285}],activeI:'null',colorlist:[
+		{title:'拇指文字',showtype:"text",placeN:'thumb_text',style:[undefined,{top:-450,left:110,size:40,transform:285}],activeI:'null',colorlist:[
       {colorV:'#5C4032',colorN:'CC28'},
       {colorV:'#772F09',colorN:'PA28'},
       {colorV:'#817F42',colorN:'PA42'},
@@ -154,7 +168,7 @@ module.exports = {
       {colorV:'#D49F5D',colorN:'SyL28'},
       {colorV:'#827263',colorN:'SYQ28'},
     ]},
-    {title:"食指文字",showtype:"text",placeN:'palm_text',activeI:'null',style:[{top:140,left:270,size:40,transform:0}],colorlist:[
+    {title:"食指文字",showtype:"text",placeN:'palm_text',activeI:'null',style:[{top:-450,left:80,size:40,transform:-90}],colorlist:[
       {colorV:'#5C4032',colorN:'CC28'},
       {colorV:'#772F09',colorN:'PA28'},
       {colorV:'#817F42',colorN:'PA42'},

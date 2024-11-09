@@ -29,7 +29,7 @@ Vue.prototype.leather = [
 ];
 
 Vue.prototype.leather1 = ['金属红', '金属蓝', '金色皮', '银色皮'];
-Vue.prototype.leather2 = ['CC28', 'PA28', 'PA42', 'PT23', 'PT47', 'PT60', 'SY01', 'Sy03', 'Sy11', 'Sy15', 'Sy16', 'SY19', 'Sy22', 'Sy27', 'Sy40', 'Sy43', 'Sy45', 'SY50', 'Sy55', 'Sy90', 'SYE27', 'SyL28', 'SYQ28'];
+Vue.prototype.leather2 = ['Sy90', 'CC28', 'PA28', 'PA42', 'PT23', 'PT47', 'PT60', 'SY01', 'Sy03', 'Sy11', 'Sy15', 'Sy16', 'SY19', 'Sy22', 'Sy27', 'Sy40', 'Sy43', 'Sy45', 'SY50', 'Sy55', 'SYE27', 'SyL28', 'SYQ28'];
 Vue.prototype.leather3 = ['PT47', '丈青蛇纹', '中蓝压纹皮', '中蓝球纹', '乳白球纹', '乳白蛇纹', '亮粉色蛇纹', '变色皮子', '夏威夷绿', '夏威夷蓝', '大象纹', '奶牛纹', '扎染蛇纹', '拼图蛇纹', '新乳白压纹皮', '新白色压纹皮', '新红色压纹皮', '新绿色压纹皮', '新蓝色压纹皮', '新黄色压纹皮', '新黑色压纹皮', '棕色压纹皮', '森绿迷彩', '波西米亚风蛇纹', '海洋迷彩', '灰色球纹', '灰色蛇纹', '灰色迷彩', '牛仔皮', '玫瑰金', '玫瑰金蛇纹', '瑟拉佩蛇纹', '白色波点蛇纹', '白色球纹', '白色蛇纹', '粉色点点', '粉色蛇纹', '紫色蛇纹', '红色球纹', '红色蛇纹', '美人鱼', '美人鱼蛇纹', '花花蛇纹', '落日蛇纹', '薄荷绿蛇纹', '豹纹', '金色皮', '金色蛇纹', '银色皮', '银色蛇纹', '黄色蛇纹', '黑色压纹皮', '黑色波点蛇纹', '黑色蛇纹'];
 Vue.prototype.getLeatherArry = function (type) {
     if (type.includes('LEATHER')) {
@@ -65,7 +65,7 @@ Vue.prototype.getLeatherArry = function (type) {
         case 'BINDING':
             return [{ index: 1, list: [...this.leather1] }, { index: 2, list: [...this.leather2] }]; break;
         case 'STITCHING':
-            return [{ index: 1, list: [...this.leather1] }, { index: 2, list: [...this.leather2] }]; break;
+            return [{ index: 2, list: [...this.leather2] }]; break;
         case 'thumb_text':
             return [{ index: 2, list: [...this.leather2] }]; break;
         case 'pinky_text':
@@ -74,6 +74,16 @@ Vue.prototype.getLeatherArry = function (type) {
             return [{ index: 2, list: [...this.leather2] }]; break;
         case 'PAD_HOOD':
             return [{ index: 1, list: [...this.leather1] }, { index: 2, list: [...this.leather2] }, { index: 3, list: [...this.leather3] }]; break;
+        case 'CROWN_COLOR':
+            return [{ index: 2, list: [...this.leather2] }]; break;
+        case 'FINGER_PAD':
+            return [{ index: 2, list: [...this.leather2] }, { index: 3, list: [...this.leather3] }]; break;
+        case 'WEB_CROWN':
+            return [{ index: 2, list: [...this.leather2] }, { index: 3, list: [...this.leather3] }]; break;
+        case 'CROWN':
+            return [{ index: 2, list: [...this.leather2] }]; break;
+        case 'WRIST_STRAP':
+            return [{ index: 2, list: [...this.leather2] }, { index: 3, list: [...this.leather3] }]; break;
         default:
             return [];
     }
@@ -136,7 +146,7 @@ Vue.prototype.getColorStyle = function (name) {
     if (oitem.colorv != '') {
         return `color: ${oitem.colorv};` + style;
     } else if (oitem.leather != '') {
-        return `background-image:url(/images/base/leather/${oitem.leather_index}/${oitem.leather}.jpg);-webkit-text-fill-color:transparent;-webkit-background-clip:text;background-size:30% 30%;` + style;
+        return `background-image:url(/images/base/leather/${oitem.leather_index}/${oitem.leather}.jpg);-webkit-text-fill-color:transparent;-webkit-background-clip:text;background-size:100% 100%;` + style;
     } else {
         return '';
     }
@@ -194,6 +204,12 @@ Vue.prototype.filterBase = function (arr) {
     if (this.getBaseValue('指垫指套') == '无') {
         arr = arr.filter(item => item.titles != '指垫指套位置' && item.title != '指垫指套位置' && item.titles != '指垫指套颜色' && item.title != '指垫指套颜色');
     }
+    if (this.getBaseValue('指垫') == '无') {
+        arr = arr.filter(item => item.titles != '指垫颜色' && item.title != '指垫颜色' );
+    }
+    if (this.getBaseValue('拇指圈LOGO') != '定制本垒数字' && this.getBaseValue('拇指圈LOGO') != 'Aces logo') {
+        arr = arr.filter(item => item.titles != '本垒字');
+    }
     if (this.getBaseValue('拇指圈LOGO') != '定制本垒数字') {
         arr = arr.filter(item => item.titles != '定制本垒数字' && item.title != '定制本垒数字');
     }
@@ -226,6 +242,8 @@ Vue.prototype.ifShow = function (item) {
     let title = item.title || item.titles;
     if (this.getBaseValue('指垫指套') == '无' && (item.title == '指垫指套位置' || item.title == '指垫指套颜色' || item.titles == '指垫指套位置' || item.titles == '指垫指套颜色')) {
         return 'none;';
+    } else if ((this.getBaseValue('拇指圈LOGO') != '定制本垒数字' && this.getBaseValue('拇指圈LOGO') != 'Aces logo') && (item.title == '本垒' || item.titles == '本垒')) {
+        return 'none;';
     } else if (this.getBaseValue('拇指圈LOGO') != '定制本垒数字' && (item.title == '定制本垒数字' || item.titles == '定制本垒数字')) {
         return 'none;';
     } else if (this.getBaseValue('拇指圈LOGO') != '数字' && (item.title == '数字' || item.titles == '数字')) {
@@ -238,6 +256,8 @@ Vue.prototype.ifShow = function (item) {
         return 'none;';
     } else if (this.buyarr.productId == 20 && this.getBaseValue('夹条样式') == '双夹条' && title.includes('皮革') && title != '皮革1') {
         return 'none;';
+    } else if (this.buyarr.productId == 34 && this.getBaseValue('指垫') == '无'&& (item.title == '指垫颜色' || item.titles == '指垫颜色')) {
+        return 'none;';
     } else {
         return '';
     }
@@ -249,10 +269,13 @@ Vue.prototype.getPadHoodStyle = function () {
     const oitems = this.poparr[1].typearr.filter(item => item.titles == '指垫指套颜色');
     const oitem = oitems[0];
     let style = `-webkit-mask: url(/images/base/pad_hood_placement/${this.buyarr.productId}/${this.getBaseValue('指垫指套')}-${this.getBaseValue('指垫指套位置')}.svg) no-repeat center;mask: url(/images/base/pad_hood_placement/${this.buyarr.productId}/${this.getBaseValue('指垫指套')}-${this.getBaseValue('指垫指套位置')}.svg) no-repeat center;`;
+    if(this.getBaseValue('指垫指套位置')==''){
+        style = `-webkit-mask: url(/images/base/pad_hood_placement/${this.buyarr.productId}/${this.getBaseValue('指垫指套')}.svg) no-repeat center;mask: url(/images/base/pad_hood_placement/${this.buyarr.productId}/${this.getBaseValue('指垫指套')}-${this.getBaseValue('指垫指套位置')}.svg) no-repeat center;`;
+    }
     if (oitem.colorv != '') {
         return `background-color: ${oitem.colorv};` + style;
     } else if (oitem.leather != '') {
-        return `background-image: url("/images/base/leather/${oitem.leather_index}/${oitem.leather}.jpg");background-size:30% 30%;` + style;
+        return `background-image: url("/images/base/leather/${oitem.leather_index}/${oitem.leather}.jpg");background-size:100% 100%;` + style;
     } else {
         return `background-color: transparent;` + style;
     }
@@ -265,7 +288,7 @@ Vue.prototype.getLogoColor = function (index) {
     if (item.colorv != '') {
         return `background-color:${item.colorv};` + style;
     } else if (item.leather != '') {
-        return `background-image: url("/images/base/leather/${item.leather_index}/${item.leather}.jpg");background-size:30% 30%;` + style;
+        return `background-image: url("/images/base/leather/${item.leather_index}/${item.leather}.jpg");background-size:100% 100%;` + style;
     } else {
         return `background-color: transparent;` + style;
     }
@@ -278,7 +301,7 @@ Vue.prototype.getPlateLogoColor = function (index) {
     if (item.colorv != '') {
         return `background-color:${item.colorv};` + style;
     } else if (item.leather != '') {
-        return `background-image: url("/images/base/leather/${item.leather_index}/${item.leather}.jpg");background-size:30% 30%;` + style;
+        return `background-image: url("/images/base/leather/${item.leather_index}/${item.leather}.jpg");background-size:100% 100%;` + style;
     } else {
         return `background-color: transparent;` + style;
     }
@@ -290,8 +313,8 @@ Vue.prototype.getSignLogoColor = function (index) {
     const style = `-webkit-mask: url(/images/base/palm_sign/${this.buyarr.productId}/${index + 1}.svg) no-repeat center;mask: url(/images/base/palm_sign/${this.buyarr.productId}/${index + 1}.svg) no-repeat center;`;
     if (item.colorv != '') {
         return `background-color:${item.colorv};` + style;
-    } else if (item.leather != ''&&this.getBaseValue('手掌烫印')=='Aces logo') {
-        return `background-image: url("/images/base/leather/${item.leather_index}/${item.leather}.jpg");background-size:30% 30%;` + style;
+    } else if (item.leather != '' && this.getBaseValue('手掌烫印') == 'Aces logo') {
+        return `background-image: url("/images/base/leather/${item.leather_index}/${item.leather}.jpg");background-size:100% 100%;` + style;
     } else {
         return `background-color: transparent;` + style;
     }
@@ -302,20 +325,27 @@ Vue.prototype.getSignLogoColor = function (index) {
 Vue.prototype.getWeltingStyle = function (index) {
     const item = this.poparr[1].typearr.filter(item => item.titles == '夹条')[0];
     const style = `-webkit-mask: url(/images/base/welting_svg/${index + 1}.svg) no-repeat center;mask: url(/images/base/welting_svg/${index + 1}.svg) no-repeat center;`;
-    return `background-image: url("/images/base/leather/${item.leather_index}/${item.leather}.jpg");background-size:30% 30%;` + style;
+    return `background-image: url("/images/base/leather/${item.leather_index}/${item.leather}.jpg");background-size:100% 100%;` + style;
 }
 
 //双夹条手指路径
 Vue.prototype.getDoubleWeltingStyle = function (index) {
     const item = this.poparr[1].typearr.filter(item => item.titles == '指头中片')[0];
     const style = `-webkit-mask: url(/images/base/pro44/finger_strip/${index + 1}.svg) no-repeat center;mask: url(/images/base/pro44/finger_strip/${index + 1}.svg) no-repeat center;`;
-    return `background-image: url("/images/base/leather/${item.leather_index}/${item.leather}.jpg");background-size:30% 30%;` + style;
+    return `background-image: url("/images/base/leather/${item.leather_index}/${item.leather}.jpg");background-size:100% 100%;` + style;
 }
 //皮革1路径
 Vue.prototype.getLeather1Style = function (index) {
     const item = this.poparr[1].typearr.filter(item => item.titles == '皮革1')[0];
     const style = `-webkit-mask: url(/images/base/pro44/leather_1/${index + 1}.svg) no-repeat center;mask: url(/images/base/pro44/leather_1/${index + 1}.svg) no-repeat center;`;
-    return `background-image: url("/images/base/leather/${item.leather_index}/${item.leather}.jpg");background-size:30% 30%;` + style;
+    return `background-image: url("/images/base/leather/${item.leather_index}/${item.leather}.jpg");background-size:100% 100%;` + style;
+}
+
+//本垒缝线路径
+Vue.prototype.getPlateStitchingStyle = function (index) {
+    const item = this.poparr[1].typearr.filter(item => item.titles == '缝线')[0];
+    const style = `-webkit-mask: url(/images/base/stitching/${this.buyarr.productId}/${index + 1}.svg) no-repeat center;mask: url(/images/base/stitching/${this.buyarr.productId}/${index + 1}.svg) no-repeat center;`;
+    return `background-image: url("/images/base/leather/${item.leather_index}/${item.leather}.jpg");background-size:100% 100%;` + style;
 }
 
 //获得球挡样式
@@ -327,7 +357,7 @@ Vue.prototype.getWebStyle = function (index) {
     if (oitem.colorv != '') {
         return `background-color: ${oitem.colorv};` + style;
     } else if (oitem.leather != '') {
-        return `background-image: url("/images/base/leather/${oitem.leather_index}/${oitem.leather}.jpg");background-size:30% 30%;` + style;
+        return `background-image: url("/images/base/leather/${oitem.leather_index}/${oitem.leather}.jpg");background-size:100% 100%;` + style;
     } else {
         return `background-color: transparent;` + style;
     }
@@ -416,16 +446,16 @@ Vue.prototype.getTextStyle = function (index, oindex) {
             obj.top = style[index].top + 'px';
             obj.fontSize = style[index].size + 'px';
             obj.transform = 'rotate(' + style[index].transform + 'deg)';
-            obj.position='relative';
-            obj.zIndex='200';
-            if (title == '本垒数字') {
-                obj.fontStyle = 'italic';
+            obj.position = 'relative';
+            obj.zIndex = '201';
+            if (title == '数字' || title == '内里文字' || title == '拇指文字' || title == '小指文字' || title == '食指文字') {
+                obj.fontFamily = this.getBaseValue('字体');
             }
-   
-            if(title == '定制数字'){
 
-                obj.textShadow='-1px -1px 0 grey, 1px -1px 0 grey, -1px 1px 0 grey, 1px 1px 0 grey';
-                obj.color='#eeeeee';
+            if (title == '定制数字') {
+
+                obj.textShadow = '-1px -1px 0 grey, 1px -1px 0 grey, -1px 1px 0 grey, 1px 1px 0 grey';
+                obj.color = '#eeeeee';
             }
             const font = this.poparr[2].typearr.filter(item => item.titles == '字体')[0];
             if (font.values == 'Block') {
@@ -441,14 +471,22 @@ Vue.prototype.getTextStyle = function (index, oindex) {
 
 //是否显示国旗
 Vue.prototype.ifShowFlag = function (aindex) {
-    const index = this.filterBase(this.poparr[2].typearr).findIndex(item => item.titles == '食指国旗');
+    let index = this.filterBase(this.poparr[2].typearr).findIndex(item => item.titles == '食指国旗');
+    if(this.buyarr.productId == 42){
+        index = this.filterBase(this.poparr[2].typearr).findIndex(item => item.titles == '小指国旗');
+    }
     return aindex == 0 && (index == -1 ? false : this.filterBase(this.poparr[2].typearr)[index].values == '无' ? false : true);
 }
 
 //地图样式
 Vue.prototype.getFlagStyle = function () {
     let obj = {};
-    const style = this.colortxtarr.filter(item => item.title == '食指国旗')[0].style;
+    let style = '';
+    if(this.buyarr.productId == 42){
+        style = this.colortxtarr.filter(item => item.title == '小指国旗')[0].style;
+    }else{
+        style = this.colortxtarr.filter(item => item.title == '食指国旗')[0].style;
+    }
     if (typeof style != 'undefined') {
         if (typeof style[0] != 'undefined') {
             if (typeof style[0].width != 'undefined') {
@@ -468,7 +506,11 @@ Vue.prototype.getFlagStyle = function () {
 
 //国旗名
 Vue.prototype.getFlagName = function () {
-    const item = this.filterBase(this.poparr[2].typearr).filter(item => item.titles == '食指国旗');
+    let item = this.filterBase(this.poparr[2].typearr).filter(item => item.titles == '食指国旗');
+    if(this.buyarr.productId == 42){
+        item = this.filterBase(this.poparr[2].typearr).filter(item => item.titles == '小指国旗');
+    }
+    console.log(item[0].values);
     return item[0].values;
 }
 

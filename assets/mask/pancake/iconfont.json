@@ -6,6 +6,20 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "40769416",
+      "name": "LEATHER_1-1",
+      "font_class": "LEATHER_1-1",
+      "unicode": "e773",
+      "unicode_decimal": 59251
+    },
+    {
+      "icon_id": "40769415",
+      "name": "LEATHER_1-2",
+      "font_class": "LEATHER_1-2",
+      "unicode": "e774",
+      "unicode_decimal": 59252
+    },
+    {
       "icon_id": "40193740",
       "name": "STITCHING-2",
       "font_class": "STITCHING-2",
@@ -18,13 +32,6 @@
       "font_class": "STITCHING-1",
       "unicode": "e766",
       "unicode_decimal": 59238
-    },
-    {
-      "icon_id": "40157569",
-      "name": "LEATHER_1-1",
-      "font_class": "LEATHER_1-1",
-      "unicode": "e738",
-      "unicode_decimal": 59192
     },
     {
       "icon_id": "39966221",
@@ -74,13 +81,6 @@
       "font_class": "LEATHER_2-2",
       "unicode": "40007",
       "unicode_decimal": 262151
-    },
-    {
-      "icon_id": "37814312",
-      "name": "LEATHER_1-2",
-      "font_class": "LEATHER_1-2",
-      "unicode": "40009",
-      "unicode_decimal": 262153
     },
     {
       "icon_id": "37814293",

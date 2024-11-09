@@ -140,17 +140,17 @@
     font-size: 20px;
   }
   .figure-close:before {
-    content: "\e903";
+    content: "\1e903";
   }
   .figure-menu:before {
-    content: "\e624";
+    content: "\1e624";
   }
   .figure-magnifier:before {
-    content: "\e632";
+    content: "\1e632";
   }
   .figure-next:before {
-    content: "\e8ef";
+    content: "\1e8ef";
   }
   .figure-prev:before {
-    content: "\e904";
+    content: "\1e904";
   }

@@ -239,31 +239,56 @@ export default {
          url('~assets/figure/iconfont.svg?t=1681181490301#figure') format('svg');
   }
   .ofigure {
-    font-family: "figure" !important;
+    font-family: "ofigure";
     font-style: normal;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-size: 18px;
   }
   .figure-youtube:before {
-    content: "\e62d";
-  }
+  content: "\1e62d";
+}
 
-  .figure-facebook:before {
-    content: "\e635";
-  }
+.figure-facebook:before {
+  content: "\1e635";
+}
 
-  .figure-twitter:before {
-    content: "\e882";
-  }
+.figure-twitter:before {
+  content: "\e882";
+}
 
-  .figure-instagram:before {
-    content: "\e88f";
-  }
+.figure-instagram:before {
+  content: "\1e88f";
+}
 
-  .figure-linkedin:before {
-    content: "\e978";
-  }
+.figure-linkedin:before {
+  content: "\1e978";
+}
+
+.figure-diamond:before {
+  content: "\1e6e6";
+}
+
+.figure-next:before {
+  content: "\1e8ef";
+}
+
+.figure-prev:before {
+  content: "\1e904";
+}
+
+.figure-magnifier:before {
+  content: "\1e632";
+}
+
+.figure-close:before {
+  content: "\1e903";
+}
+
+.figure-menu:before {
+  content: "\1e624";
+}
+
 .kefuIcon {
   position: fixed;
   right: 9px;

@@ -6,6 +6,27 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "41724655",
+      "name": "LEATHER_1-1",
+      "font_class": "LEATHER_1-1",
+      "unicode": "e786",
+      "unicode_decimal": 59270
+    },
+    {
+      "icon_id": "41723312",
+      "name": "WRIST-1",
+      "font_class": "WRIST-1",
+      "unicode": "e780",
+      "unicode_decimal": 59264
+    },
+    {
+      "icon_id": "41723311",
+      "name": "WRIST-2",
+      "font_class": "WRIST-2",
+      "unicode": "e781",
+      "unicode_decimal": 59265
+    },
+    {
       "icon_id": "40193554",
       "name": "STITCHING-1",
       "font_class": "STITCHING-1",
@@ -41,20 +62,6 @@
       "unicode_decimal": 59235
     },
     {
-      "icon_id": "40176820",
-      "name": "WRIST-1",
-      "font_class": "WRIST-1",
-      "unicode": "e75f",
-      "unicode_decimal": 59231
-    },
-    {
-      "icon_id": "40176821",
-      "name": "WRIST-2",
-      "font_class": "WRIST-2",
-      "unicode": "e75e",
-      "unicode_decimal": 59230
-    },
-    {
       "icon_id": "40176839",
       "name": "LACES-1",
       "font_class": "LACES-1",
@@ -81,13 +88,6 @@
       "font_class": "LEATHER_1-3",
       "unicode": "e758",
       "unicode_decimal": 59224
-    },
-    {
-      "icon_id": "40176780",
-      "name": "LEATHER_1-1",
-      "font_class": "LEATHER_1-1",
-      "unicode": "e759",
-      "unicode_decimal": 59225
     },
     {
       "icon_id": "40176779",

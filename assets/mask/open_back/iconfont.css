@@ -1,9 +1,9 @@
 @font-face {
   font-family: "figure"; /* Project id 4317768 */
-  src: url('iconfont.woff2?t=1714963320752') format('woff2'),
-       url('iconfont.woff?t=1714963320752') format('woff'),
-       url('iconfont.ttf?t=1714963320752') format('truetype'),
-       url('iconfont.svg?t=1714963320752#figure') format('svg');
+  src: url('iconfont.woff2?t=1724639533911') format('woff2'),
+       url('iconfont.woff?t=1724639533911') format('woff'),
+       url('iconfont.ttf?t=1724639533911') format('truetype'),
+       url('iconfont.svg?t=1724639533911#figure') format('svg');
 }
 
 .figure {
@@ -12,6 +12,10 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.figure-PAD_HOOD-1:before {
+  content: "\e77e";
 }
 
 .figure-STITCHING-2:before {

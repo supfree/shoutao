@@ -227,7 +227,7 @@
   top: 0;
   display: none;
   opacity: 1;
-  width: 0;
+  width: 100%;
 }
 
 .flag {
@@ -299,4 +299,16 @@
 .figure-LOGO_COLOR-3,
 .figure-LOGO_COLOR-4 {
   display: none !important;
+}
+
+
+.figure-HOME_PLATE-1,.figure-HOME_PLATE-2{
+  z-index:200 !important;
+}
+
+@font-face {
+  font-family: 'script'; /* 定义一个字体名称，用于在CSS中引用 */
+  src: url('script.ttf') format('truetype'); /* 指定字体文件的路径和格式 */
+  font-weight: normal; /* 字体粗细，可选 */
+  font-style: normal; /* 字体风格，可选 */
 }

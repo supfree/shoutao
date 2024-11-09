@@ -165,7 +165,7 @@
 						v-for="(item,index) in filterBase(baseinfo)" :key="index">
 						<div class="pp">
 							<span href="javascript:;" @click="handlebaseClick('pre',index)" v-if="index>=1">{{filterBase(baseinfo)[index-1].title}}</span>
-							<span href="javascript:;" @click="handlebaseClick('next',index)" v-if="index<=filterBase(baseinfo).length">{{item.title}}</span>
+							<span href="javascript:;" @click="handlebaseClick('next',index)"><span v-if="index<=filterBase(baseinfo).length-2">下一步</span></span>
 						</div>
             <div class="color-title">{{item.title}}</div>
 						<div class="radio" v-for="(itemson,indexson) in item.selectlist" :key="indexson" v-if="item.showtype == 'radio'">
@@ -190,7 +190,7 @@
 					v-for="(item,index) in filterBase(colorarr)" :key="index">
               		<div class="pp">
               			<span href="javascript:;" @click="handleClick('pre',index)" v-if="index>=1">{{filterBase(colorarr)[index-1].title}}</span>
-              			<span href="javascript:;" @click="handleClick('next',index)" v-if="index<=filterBase(colorarr).length">{{item.title}}</span>
+              			<span href="javascript:;" @click="handleClick('next',index)"><span v-if="index<=filterBase(colorarr).length-2">下一步</span></span>
               		</div>
               		<div class="colors">
                     <div class="color-title">{{item.title}}</div>
@@ -223,11 +223,11 @@
 			  		v-for="(item,index) in filterBase(colortxtarr)" :key="index">
 			  		<div class="pp">
 			  			<span href="javascript:;" @click="handlePerClick('pre',index)" v-if="index>=1">{{filterBase(colortxtarr)[index-1].title}}</span>
-			  			<span href="javascript:;" @click="handlePerClick('next',index)" v-if="index<=filterBase(colortxtarr).length">{{item.title}}</span>
+			  			<span href="javascript:;" @click="handlePerClick('next',index)"><span v-if="index<=filterBase(colortxtarr).length-2">下一步</span></span>
 			  		</div>
             <div class="color-title">{{item.title}}<span v-if="item.title=='内里文字'">（位置在中间）</span></div>
 					<div class="custom-text" v-if="item.showtype == 'text'">
-					  <input id="txtA" class="" type="text" placeholder="最多8个字符" maxlength="8" v-model="filterBase(poparr[2].typearr)[index].txtvalue" @keyup="toB(index,item.placeN,item.title)"/>
+					  <input id="txtA" class="" type="text" :placeholder="item.title=='特殊要求'?'':item.title.includes('数字')?'最多2个字符':'最多8个字符'" :maxlength="item.title=='特殊要求'?100:8" v-model="filterBase(poparr[2].typearr)[index].txtvalue" @keyup="toB(index,item.placeN,item.title)"/>
 					  <label for="" v-if="item.colorlist.length>0">文本颜色</label>
 					  <div class="colors">
 					    <div id="div-5">
@@ -935,253 +935,7 @@ export default {
   // }
   // 手套图形 开始
   // 注:如同一位置的形状,单张图用 "figure-图形名称1“；多张不同角度的用 "figure-图形名称1,figure-图形名称2" 定义
-  .figure-jpshouwan1:before {
-    content: "\e76a";
-  }
 
-  .figure-jpyijianmuzhi2:before {
-    content: "\e76b";
-  }
-
-  .figure-jpxiedai4:before {
-    content: "\e76c";
-  }
-
-  .figure-jppiged1:before {
-    content: "\e76d";
-  }
-
-  .figure-jpzonglv3:before {
-    content: "\e76e";
-  }
-
-  .figure-jpyijianmuzhi3:before {
-    content: "\e76f";
-  }
-
-  .figure-jpzonglv2:before {
-    content: "\e770";
-  }
-
-  .figure-jpkunbang2:before {
-    content: "\e771";
-  }
-
-  .figure-jpjppinjie3:before {
-    content: "\e772";
-  }
-
-  .figure-jppigea2:before {
-    content: "\e773";
-  }
-
-  .figure-jppigee4:before {
-    content: "\e774";
-  }
-
-  .figure-jppigec3:before {
-    content: "\e775";
-  }
-
-  .figure-jppigeh1:before {
-    content: "\e776";
-  }
-
-  .figure-jpyijianmuzhi1:before {
-    content: "\e777";
-  }
-
-  .figure-jpwangge3:before {
-    content: "\e778";
-  }
-
-  .figure-jppinjie4:before {
-    content: "\e779";
-  }
-
-  .figure-jptiebian1:before {
-    content: "\e77a";
-  }
-
-  .figure-jpwangge1:before {
-    content: "\e77b";
-  }
-
-  .figure-jpyijianxiaozhi4:before {
-    content: "\e77c";
-  }
-
-  .figure-jppinjie2:before {
-    content: "\e77d";
-  }
-
-  .figure-jpxiedai2:before {
-    content: "\e77e";
-  }
-
-  .figure-jppinjie1:before {
-    content: "\e77f";
-  }
-
-  .figure-jppigeh4:before {
-    content: "\e780";
-  }
-
-  .figure-jptiebian3:before {
-    content: "\e781";
-  }
-
-  .figure-jptiebian2:before {
-    content: "\e782";
-  }
-
-  .figure-jpxiedai1:before {
-    content: "\e783";
-  }
-
-  .figure-jpwangge2:before {
-    content: "\e784";
-  }
-
-  .figure-jpxiedai3:before {
-    content: "\e785";
-  }
-
-  .figure-jphuibiao2:before {
-    content: "\e748";
-  }
-
-  .figure-jpbenlei1:before {
-    content: "\e749";
-  }
-
-  .figure-jpkip3:before {
-    content: "\e74a";
-  }
-
-  .figure-jpkip4:before {
-    content: "\e74b";
-  }
-
-  .figure-jpbenlei2:before {
-    content: "\e74c";
-  }
-
-  .figure-jppigea1:before {
-    content: "\e74d";
-  }
-
-  .figure-jppigeb2:before {
-    content: "\e74e";
-  }
-
-  .figure-jphuibiao1:before {
-    content: "\e74f";
-  }
-
-  .figure-jppigeb1:before {
-    content: "\e750";
-  }
-
-  .figure-jppigec1:before {
-    content: "\e751";
-  }
-
-  .figure-jppigeb4:before {
-    content: "\e752";
-  }
-
-  .figure-jpkunbang4:before {
-    content: "\e753";
-  }
-
-  .figure-jpkip2:before {
-    content: "\e754";
-  }
-
-  .figure-jpkunbang1:before {
-    content: "\e755";
-  }
-
-  .figure-jppigee1:before {
-    content: "\e756";
-  }
-
-  .figure-jpkip1:before {
-    content: "\e757";
-  }
-
-  .figure-jppigeg1:before {
-    content: "\e758";
-  }
-
-  .figure-jppigef3:before {
-    content: "\e759";
-  }
-
-  .figure-jpkunbang3:before {
-    content: "\e75a";
-  }
-
-  .figure-jppigef1:before {
-    content: "\e75b";
-  }
-
-  .figure-jppiged4:before {
-    content: "\e75c";
-  }
-
-  .figure-jppigec4:before {
-    content: "\e75d";
-  }
-
-  .figure-jppigeb3:before {
-    content: "\e75e";
-  }
-
-  .figure-jpzonglv4:before {
-    content: "\e75f";
-  }
-
-  .figure-jppigee3:before {
-    content: "\e760";
-  }
-
-  .figure-jppigef4:before {
-    content: "\e761";
-  }
-
-  .figure-jppigeg4:before {
-    content: "\e762";
-  }
-
-  .figure-jpshouwan4:before {
-    content: "\e763";
-  }
-
-  .figure-jptiebian4:before {
-    content: "\e764";
-  }
-
-  .figure-jppigeg3:before {
-    content: "\e765";
-  }
-
-  .figure-jpshouwan2:before {
-    content: "\e766";
-  }
-
-  .figure-jpzonglv1:before {
-    content: "\e767";
-  }
-
-  .figure-jppigeh3:before {
-    content: "\e768";
-  }
-
-  .figure-jpyijianxiaozhi3:before {
-    content: "\e769";
-  }
 
   // 手套图形 结束
   // 手套色值属性 开始

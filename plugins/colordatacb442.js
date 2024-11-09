@@ -14,14 +14,14 @@ module.exports = {
       {showtxt:'绣花章',showvalue:'绣花章'},
       {showtxt:'皮章',showvalue:'皮章'}
     ]},
-    {title:"左右手",showtype:"radio",placeN:'throwing_hand',activeI:'null',selectlist:[
-      {showtxt:'左',showvalue:'左'},
-      {showtxt:'右',showvalue:'右'},
+    {title:"编绳长度",showtype:"radio",placeN:'lace_length',activeI:'null',selectlist:[
+      {showtxt:'正常',showvalue:'正常'},
+      {showtxt:'长',showvalue:'长'},
     ]},
-    {title:"软硬度",showtype:"radio",placeN:'glove_stiffness',activeI:'null',selectlist:[
-      {showtxt:'专业硬度',showvalue:'专业硬度'},
-      {showtxt:'标准',showvalue:'标准'},
-		]},
+    {title:"手腕内里材质",showtype:"radio",placeN:'wrist_lining',activeI:'null',selectlist:[
+      {showtxt:'传统羊毛垫',showvalue:'传统羊毛垫'},
+      {showtxt:'吸汗垫',showvalue:'吸汗垫'},
+    ]},
     {title:"球挡样式",showtype:"radio",placeN:'web_style',activeI:'null',selectlist:[
       {showtxt:'1-Piece Full Web',showvalue:'1-Piece Full Web'},
       {showtxt:'1-Piece Web - Spiral Lace',showvalue:'1-Piece Web - Spiral Lace'},
@@ -51,28 +51,23 @@ module.exports = {
       {showtxt:'Victory Web',showvalue:'Victory Web'},
       {showtxt:'Y-Web',showvalue:'Y-Web'},      
     ]},
+    {title:"左右手",showtype:"radio",placeN:'throwing_hand',activeI:'null',selectlist:[
+      {showtxt:'左',showvalue:'左'},
+      {showtxt:'右',showvalue:'右'},
+    ]},
+    {title:"软硬度",showtype:"radio",placeN:'glove_stiffness',activeI:'null',selectlist:[
+      {showtxt:'专业硬度',showvalue:'专业硬度'},
+      {showtxt:'标准',showvalue:'标准'},
+		]},
+    
+    
+    
+    {title:"指孔",showtype:"radio",placeN:'finger_hold',activeI:'null',selectlist:[
+      {showtxt:'无',showvalue:'无'},
+      {showtxt:'有',showvalue:'有'},
+    ]},
   ],
   "colordata": [
-    {
-      title: 'LOGO颜色', placeN: 'LOGO_COLOR', activeI: 'null', colorlist: [
-      ]
-    },
-    {
-      title: '缝线', placeN: 'STITCHING', activeI: 'null', colorlist: [
-      ]
-    },
-    {
-      title: '包边', placeN: 'BINDING', activeI: 'null', colorlist: [
-      ]
-    },
-    {
-      title: '本垒', placeN: 'HOME_PLATE', activeI: 'null', colorlist: [
-      ]
-    },
-    {
-      title: '编绳', placeN: 'LACES', activeI: 'xiedai', colorlist: [
-      ]
-    },
     {
       title: '皮革1', placeN: 'LEATHER_1', activeI: 'null', colorlist: [
       ]
@@ -86,11 +81,7 @@ module.exports = {
       ]
     },
     {
-      title: '手掌', placeN: 'PALM', activeI: 'null', colorlist: [
-      ]
-    },
-    {
-      title: '夹条', placeN: 'WELTING', activeI: 'null', colorlist: [
+      title: '拇指小片', placeN: 'WINGTIP_THUMB', activeI: 'null', colorlist: [
       ]
     },
     {
@@ -98,9 +89,43 @@ module.exports = {
       ]
     },
     {
-      title: '拇指大片', placeN: 'WINGTIP_THUMB', activeI: 'null', colorlist: [
+      title: '手掌', placeN: 'PALM', activeI: 'null', colorlist: [
       ]
     },
+    {
+      title: '包边', placeN: 'BINDING', activeI: 'null', colorlist: [
+      ]
+    },
+    {
+      title: '夹条', placeN: 'WELTING', activeI: 'null', colorlist: [
+      ]
+    },
+    {
+      title: '编绳', placeN: 'LACES', activeI: 'xiedai', colorlist: [
+      ]
+    },
+    {
+      title: '本垒', placeN: 'HOME_PLATE', activeI: 'null', colorlist: [
+      ]
+    },
+    {
+      title: '缝线', placeN: 'STITCHING', activeI: 'null', colorlist: [
+      ]
+    },
+
+    {
+      title: 'LOGO颜色', placeN: 'LOGO_COLOR', activeI: 'null', colorlist: [
+      ]
+    },
+
+
+
+
+
+
+
+
+
 
 
 
@@ -110,13 +135,14 @@ module.exports = {
   ],
   "colortxtdata": [
     {title:"拇指圈LOGO",showtype:"radio",placeN:'thumb_logo',activeI:'null',selectlist:[
-      {showtxt:'无',showvalue:'无'},
+      
       {showtxt:'Aces logo',showvalue:'Aces logo'},
       {showtxt:'定制本垒数字',showvalue:'定制本垒数字'},
       {showtxt:'数字',showvalue:'数字'},
       {showtxt:'国旗',showvalue:'国旗'},
+      {showtxt:'无',showvalue:'无'},
     ]},
-    {title:'数字',showtype:"text",placeN:'jumbo_number',style:[{top:200,left:522,size:60,transform:305},{top:167,left:440,size:100,transform:270}],activeI:'null',colorlist:[
+    {title:'数字',showtype:"text",placeN:'jumbo_number',style:[{top:-140,left:360,size:60,transform:305},{top:-267,left:90,size:100,transform:280}],activeI:'null',colorlist:[
       {colorV:'#5C4032',colorN:'CC28'},
       {colorV:'#772F09',colorN:'PA28'},
       {colorV:'#817F42',colorN:'PA42'},
@@ -141,7 +167,7 @@ module.exports = {
       {colorV:'#D49F5D',colorN:'SyL28'},
       {colorV:'#827263',colorN:'SYQ28'},
     ]},
-		{title:'定制本垒数字',showtype:"text",placeN:'custom_plate_number',style:[{top:190,left:542,size:26,transform:300},{top:147,left:424,size:55,transform:270}],activeI:'null',colorlist:[
+		{title:'定制本垒数字',showtype:"text",placeN:'custom_plate_number',style:[{top:-155,left:342,size:26,transform:300},{top:-250,left:25,size:55,transform:270}],activeI:'null',colorlist:[
       {colorV:'#5C4032',colorN:'CC28'},
       {colorV:'#772F09',colorN:'PA28'},
       {colorV:'#817F42',colorN:'PA42'},
@@ -191,7 +217,7 @@ module.exports = {
     ]},
     {title:'定制数字',showtype:"text",placeN:'palm_sign_text',style:[undefined,undefined,{top:10,left:420,size:70,transform:0}],activeI:'null',colorlist:[]},
 		//自定义文本数组中的placeN的值，跟轮播图中的input的id名统一起来
-		{title:'拇指文字',showtype:"text",placeN:'thumb_text',style:[undefined,{top:-50,left:450,size:40,transform:285}],activeI:'null',colorlist:[
+		{title:'拇指文字',showtype:"text",placeN:'thumb_text',style:[undefined,{top:-380,left:140,size:40,transform:285}],activeI:'null',colorlist:[
       {colorV:'#5C4032',colorN:'CC28'},
       {colorV:'#772F09',colorN:'PA28'},
       {colorV:'#817F42',colorN:'PA42'},
@@ -216,7 +242,7 @@ module.exports = {
       {colorV:'#D49F5D',colorN:'SyL28'},
       {colorV:'#827263',colorN:'SYQ28'},
     ]},
-    {title:"小指文字",showtype:"text",placeN:'pinky_text',style:[undefined,undefined,undefined,{top:-180,left:310,size:40,transform:80}],activeI:'null',colorlist:[
+    {title:"小指文字",showtype:"text",placeN:'pinky_text',style:[undefined,undefined,undefined,{top:220,left:-25,size:40,transform:80}],activeI:'null',colorlist:[
       {colorV:'#5C4032',colorN:'CC28'},
       {colorV:'#772F09',colorN:'PA28'},
       {colorV:'#817F42',colorN:'PA42'},
@@ -247,6 +273,7 @@ module.exports = {
     ]},
     {title:"食指国旗",showtype:"radio",placeN:'flag',activeI:'null',style:[{top:200,left:360,height:70,width:140,transform:90}],selectlist:[
       {showtxt:'无',showvalue:'无'},
+      {showtxt:'中国',showvalue:'中国'},
       {showtxt:'阿拉巴马',showvalue:'阿拉巴马'},
       {showtxt:'阿拉斯加',showvalue:'阿拉斯加'},
       {showtxt:'亚利桑那',showvalue:'亚利桑那'},
@@ -332,9 +359,9 @@ module.exports = {
       {showtxt:'黎巴嫩',showvalue:'黎巴嫩'},
       {showtxt:'巴巴多斯',showvalue:'巴巴多斯'},
       {showtxt:'巴拿马',showvalue:'巴拿马'},
-      {title:"特殊要求",showtype:"text",placeN:'palm_text',activeI:'null',style:[],colorlist:[]},
+      
     ]},
-
+    {title:"特殊要求",showtype:"text",placeN:'palm_text',activeI:'null',style:[],colorlist:[]},
   ],
   // "colortxtdata":[
   // 	{colorV:'#884899',colorN:'紫色',activeI:'null',placeN:'customtext'},

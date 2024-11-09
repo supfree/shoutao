@@ -6,11 +6,60 @@
   "description": "",
   "glyphs": [
     {
-      "icon_id": "40193622",
+      "icon_id": "42157521",
+      "name": "STITCHING-2",
+      "font_class": "STITCHING-2",
+      "unicode": "e78c",
+      "unicode_decimal": 59276
+    },
+    {
+      "icon_id": "42157520",
       "name": "STITCHING-1",
       "font_class": "STITCHING-1",
-      "unicode": "e761",
-      "unicode_decimal": 59233
+      "unicode": "e78d",
+      "unicode_decimal": 59277
+    },
+    {
+      "icon_id": "41569727",
+      "name": "KIP_PALM_LINER-3",
+      "font_class": "KIP_PALM_LINER-3",
+      "unicode": "e77e",
+      "unicode_decimal": 59262
+    },
+    {
+      "icon_id": "41569725",
+      "name": "KIP_PALM_LINER-1",
+      "font_class": "KIP_PALM_LINER-1",
+      "unicode": "e77f",
+      "unicode_decimal": 59263
+    },
+    {
+      "icon_id": "41569724",
+      "name": "KIP_PALM_LINER-2",
+      "font_class": "KIP_PALM_LINER-2",
+      "unicode": "e77c",
+      "unicode_decimal": 59260
+    },
+    {
+      "icon_id": "41569726",
+      "name": "KIP_PALM_LINER-4",
+      "font_class": "KIP_PALM_LINER-4",
+      "unicode": "e77d",
+      "unicode_decimal": 59261
+    },
+    {
+      "icon_id": "40769407",
+      "name": "LEATHER_1-2",
+      "font_class": "LEATHER_1-2",
+      "unicode": "e770",
+      "unicode_decimal": 59248
+    },
+    {
+      "icon_id": "40769406",
+      "name": "LEATHER_1-1",
+      "font_class": "LEATHER_1-1",
+      "unicode": "e771",
+      "unicode_decimal": 59249
     },
     {
       "icon_id": "40193621",
@@ -18,13 +67,6 @@
       "font_class": "STITCHING-3",
       "unicode": "e762",
       "unicode_decimal": 59234
-    },
-    {
-      "icon_id": "40193620",
-      "name": "STITCHING-2",
-      "font_class": "STITCHING-2",
-      "unicode": "e763",
-      "unicode_decimal": 59235
     },
     {
       "icon_id": "40193619",
@@ -146,25 +188,11 @@
       "unicode_decimal": 59009
     },
     {
-      "icon_id": "37874849",
-      "name": "LEATHER_1-2",
-      "font_class": "LEATHER_1-2",
-      "unicode": "e67d",
-      "unicode_decimal": 59005
-    },
-    {
       "icon_id": "37874848",
       "name": "LEATHER_1-3",
       "font_class": "LEATHER_1-3",
       "unicode": "e67e",
       "unicode_decimal": 59006
-    },
-    {
-      "icon_id": "37874847",
-      "name": "LEATHER_1-1",
-      "font_class": "LEATHER_1-1",
-      "unicode": "e67f",
-      "unicode_decimal": 59007
     },
     {
       "icon_id": "37874857",

@@ -2,308 +2,359 @@
   {
     "name": "alipay",
     "path": "/alipay",
-    "component": "/Volumes/u/pc/pages/alipay.vue",
-    "chunkName": "pages/alipay"
+    "component": "/Users/fly/Desktop/pc/pages/alipay.vue",
+    "chunkName": "pages/alipay",
+    "_name": "_475d95fa"
   },
   {
     "name": "AppChat",
     "path": "/AppChat",
-    "component": "/Volumes/u/pc/pages/AppChat.vue",
-    "chunkName": "pages/AppChat"
+    "component": "/Users/fly/Desktop/pc/pages/AppChat.vue",
+    "chunkName": "pages/AppChat",
+    "_name": "_1d80780e"
   },
   {
     "name": "evaluation",
     "path": "/evaluation",
-    "component": "/Volumes/u/pc/pages/evaluation.vue",
-    "chunkName": "pages/evaluation"
+    "component": "/Users/fly/Desktop/pc/pages/evaluation.vue",
+    "chunkName": "pages/evaluation",
+    "_name": "_9160c428"
   },
   {
     "name": "goods_cate",
     "path": "/goods_cate",
-    "component": "/Volumes/u/pc/pages/goods_cate.vue",
-    "chunkName": "pages/goods_cate"
+    "component": "/Users/fly/Desktop/pc/pages/goods_cate.vue",
+    "chunkName": "pages/goods_cate",
+    "_name": "_23cf4b48"
   },
   {
     "name": "goods_list",
     "path": "/goods_list",
-    "component": "/Volumes/u/pc/pages/goods_list.vue",
-    "chunkName": "pages/goods_list"
+    "component": "/Users/fly/Desktop/pc/pages/goods_list.vue",
+    "chunkName": "pages/goods_list",
+    "_name": "_710a4117"
   },
   {
     "name": "goods_presell",
     "path": "/goods_presell",
-    "component": "/Volumes/u/pc/pages/goods_presell.vue",
-    "chunkName": "pages/goods_presell"
+    "component": "/Users/fly/Desktop/pc/pages/goods_presell.vue",
+    "chunkName": "pages/goods_presell",
+    "_name": "_4aa5540c"
   },
   {
     "name": "goods_presell_detail",
     "path": "/goods_presell_detail",
-    "component": "/Volumes/u/pc/pages/goods_presell_detail.vue",
-    "chunkName": "pages/goods_presell_detail"
+    "component": "/Users/fly/Desktop/pc/pages/goods_presell_detail.vue",
+    "chunkName": "pages/goods_presell_detail",
+    "_name": "_0bfb2414"
   },
   {
     "name": "goods_presell_detail_base copy",
     "path": "/goods_presell_detail_base%20copy",
-    "component": "/Volumes/u/pc/pages/goods_presell_detail_base copy.vue",
-    "chunkName": "pages/goods_presell_detail_base copy"
+    "component": "/Users/fly/Desktop/pc/pages/goods_presell_detail_base copy.vue",
+    "chunkName": "pages/goods_presell_detail_base copy",
+    "_name": "_48622c79"
   },
   {
     "name": "goods_presell_detail_c2",
     "path": "/goods_presell_detail_c2",
-    "component": "/Volumes/u/pc/pages/goods_presell_detail_c2.vue",
-    "chunkName": "pages/goods_presell_detail_c2"
+    "component": "/Users/fly/Desktop/pc/pages/goods_presell_detail_c2.vue",
+    "chunkName": "pages/goods_presell_detail_c2",
+    "_name": "_3a69596a"
   },
   {
     "name": "goods_presell_detail_Catcher-PRO44",
     "path": "/goods_presell_detail_Catcher-PRO44",
-    "component": "/Volumes/u/pc/pages/goods_presell_detail_Catcher-PRO44.vue",
-    "chunkName": "pages/goods_presell_detail_Catcher-PRO44"
+    "component": "/Users/fly/Desktop/pc/pages/goods_presell_detail_Catcher-PRO44.vue",
+    "chunkName": "pages/goods_presell_detail_Catcher-PRO44",
+    "_name": "_491ee646"
   },
   {
     "name": "goods_presell_detail_cb44",
     "path": "/goods_presell_detail_cb44",
-    "component": "/Volumes/u/pc/pages/goods_presell_detail_cb44.vue",
-    "chunkName": "pages/goods_presell_detail_cb44"
+    "component": "/Users/fly/Desktop/pc/pages/goods_presell_detail_cb44.vue",
+    "chunkName": "pages/goods_presell_detail_cb44",
+    "_name": "_371ecf9a"
   },
   {
     "name": "goods_presell_detail_cb442",
     "path": "/goods_presell_detail_cb442",
-    "component": "/Volumes/u/pc/pages/goods_presell_detail_cb442.vue",
-    "chunkName": "pages/goods_presell_detail_cb442"
+    "component": "/Users/fly/Desktop/pc/pages/goods_presell_detail_cb442.vue",
+    "chunkName": "pages/goods_presell_detail_cb442",
+    "_name": "_a65a65f0"
   },
   {
     "name": "goods_presell_detail_cf",
     "path": "/goods_presell_detail_cf",
-    "component": "/Volumes/u/pc/pages/goods_presell_detail_cf.vue",
-    "chunkName": "pages/goods_presell_detail_cf"
+    "component": "/Users/fly/Desktop/pc/pages/goods_presell_detail_cf.vue",
+    "chunkName": "pages/goods_presell_detail_cf",
+    "_name": "_3d461f9e"
   },
   {
     "name": "goods_presell_detail_close_back_pro44",
     "path": "/goods_presell_detail_close_back_pro44",
-    "component": "/Volumes/u/pc/pages/goods_presell_detail_close_back_pro44.vue",
-    "chunkName": "pages/goods_presell_detail_close_back_pro44"
+    "component": "/Users/fly/Desktop/pc/pages/goods_presell_detail_close_back_pro44.vue",
+    "chunkName": "pages/goods_presell_detail_close_back_pro44",
+    "_name": "_45a932b7"
   },
   {
     "name": "goods_presell_detail_crowntip",
     "path": "/goods_presell_detail_crowntip",
-    "component": "/Volumes/u/pc/pages/goods_presell_detail_crowntip.vue",
-    "chunkName": "pages/goods_presell_detail_crowntip"
+    "component": "/Users/fly/Desktop/pc/pages/goods_presell_detail_crowntip.vue",
+    "chunkName": "pages/goods_presell_detail_crowntip",
+    "_name": "_6d1de602"
   },
   {
     "name": "goods_presell_detail_crowntip2",
     "path": "/goods_presell_detail_crowntip2",
-    "component": "/Volumes/u/pc/pages/goods_presell_detail_crowntip2.vue",
-    "chunkName": "pages/goods_presell_detail_crowntip2"
+    "component": "/Users/fly/Desktop/pc/pages/goods_presell_detail_crowntip2.vue",
+    "chunkName": "pages/goods_presell_detail_crowntip2",
+    "_name": "_64c83c43"
   },
   {
     "name": "goods_presell_detail_ex10",
     "path": "/goods_presell_detail_ex10",
-    "component": "/Volumes/u/pc/pages/goods_presell_detail_ex10.vue",
-    "chunkName": "pages/goods_presell_detail_ex10"
+    "component": "/Users/fly/Desktop/pc/pages/goods_presell_detail_ex10.vue",
+    "chunkName": "pages/goods_presell_detail_ex10",
+    "_name": "_e5594de6"
   },
   {
     "name": "goods_presell_detail_hnd",
     "path": "/goods_presell_detail_hnd",
-    "component": "/Volumes/u/pc/pages/goods_presell_detail_hnd.vue",
-    "chunkName": "pages/goods_presell_detail_hnd"
+    "component": "/Users/fly/Desktop/pc/pages/goods_presell_detail_hnd.vue",
+    "chunkName": "pages/goods_presell_detail_hnd",
+    "_name": "_f707fc1a"
   },
   {
     "name": "goods_presell_detail_japan",
     "path": "/goods_presell_detail_japan",
-    "component": "/Volumes/u/pc/pages/goods_presell_detail_japan.vue",
-    "chunkName": "pages/goods_presell_detail_japan"
+    "component": "/Users/fly/Desktop/pc/pages/goods_presell_detail_japan.vue",
+    "chunkName": "pages/goods_presell_detail_japan",
+    "_name": "_08de229b"
   },
   {
     "name": "goods_presell_detail_jp11",
     "path": "/goods_presell_detail_jp11",
-    "component": "/Volumes/u/pc/pages/goods_presell_detail_jp11.vue",
-    "chunkName": "pages/goods_presell_detail_jp11"
+    "component": "/Users/fly/Desktop/pc/pages/goods_presell_detail_jp11.vue",
+    "chunkName": "pages/goods_presell_detail_jp11",
+    "_name": "_24d5123e"
   },
   {
     "name": "goods_presell_detail_open_back_pro44",
     "path": "/goods_presell_detail_open_back_pro44",
-    "component": "/Volumes/u/pc/pages/goods_presell_detail_open_back_pro44.vue",
-    "chunkName": "pages/goods_presell_detail_open_back_pro44"
+    "component": "/Users/fly/Desktop/pc/pages/goods_presell_detail_open_back_pro44.vue",
+    "chunkName": "pages/goods_presell_detail_open_back_pro44",
+    "_name": "_29db31ff"
   },
   {
     "name": "goods_presell_detail_pancake_trainer",
     "path": "/goods_presell_detail_pancake_trainer",
-    "component": "/Volumes/u/pc/pages/goods_presell_detail_pancake_trainer.vue",
-    "chunkName": "pages/goods_presell_detail_pancake_trainer"
+    "component": "/Users/fly/Desktop/pc/pages/goods_presell_detail_pancake_trainer.vue",
+    "chunkName": "pages/goods_presell_detail_pancake_trainer",
+    "_name": "_00278ea0"
   },
   {
     "name": "goods_presell_detail_pro44",
     "path": "/goods_presell_detail_pro44",
-    "component": "/Volumes/u/pc/pages/goods_presell_detail_pro44.vue",
-    "chunkName": "pages/goods_presell_detail_pro44"
+    "component": "/Users/fly/Desktop/pc/pages/goods_presell_detail_pro44.vue",
+    "chunkName": "pages/goods_presell_detail_pro44",
+    "_name": "_38e9d5fc"
   },
   {
     "name": "goods_presell_detail_pro442",
     "path": "/goods_presell_detail_pro442",
-    "component": "/Volumes/u/pc/pages/goods_presell_detail_pro442.vue",
-    "chunkName": "pages/goods_presell_detail_pro442"
+    "component": "/Users/fly/Desktop/pc/pages/goods_presell_detail_pro442.vue",
+    "chunkName": "pages/goods_presell_detail_pro442",
+    "_name": "_e42196c0"
   },
   {
     "name": "goods_presell_detail_rb5",
     "path": "/goods_presell_detail_rb5",
-    "component": "/Volumes/u/pc/pages/goods_presell_detail_rb5.vue",
-    "chunkName": "pages/goods_presell_detail_rb5"
+    "component": "/Users/fly/Desktop/pc/pages/goods_presell_detail_rb5.vue",
+    "chunkName": "pages/goods_presell_detail_rb5",
+    "_name": "_7e69da5a"
   },
   {
     "name": "goods_presell_detail - 副本",
     "path": "/goods_presell_detail%20-%20%E5%89%AF%E6%9C%AC",
-    "component": "/Volumes/u/pc/pages/goods_presell_detail - 副本.vue",
-    "chunkName": "pages/goods_presell_detail - 副本"
+    "component": "/Users/fly/Desktop/pc/pages/goods_presell_detail - 副本.vue",
+    "chunkName": "pages/goods_presell_detail - 副本",
+    "_name": "_2a81c62c"
   },
   {
     "name": "goods_search",
     "path": "/goods_search",
-    "component": "/Volumes/u/pc/pages/goods_search.vue",
-    "chunkName": "pages/goods_search"
+    "component": "/Users/fly/Desktop/pc/pages/goods_search.vue",
+    "chunkName": "pages/goods_search",
+    "_name": "_5658ace1"
   },
   {
     "name": "goods_seckill",
     "path": "/goods_seckill",
-    "component": "/Volumes/u/pc/pages/goods_seckill.vue",
-    "chunkName": "pages/goods_seckill"
+    "component": "/Users/fly/Desktop/pc/pages/goods_seckill.vue",
+    "chunkName": "pages/goods_seckill",
+    "_name": "_0d9f55c6"
   },
   {
     "name": "goods_seckill_detail",
     "path": "/goods_seckill_detail",
-    "component": "/Volumes/u/pc/pages/goods_seckill_detail.vue",
-    "chunkName": "pages/goods_seckill_detail"
+    "component": "/Users/fly/Desktop/pc/pages/goods_seckill_detail.vue",
+    "chunkName": "pages/goods_seckill_detail",
+    "_name": "_36889d1a"
   },
   {
     "name": "login",
     "path": "/login",
-    "component": "/Volumes/u/pc/pages/login.vue",
-    "chunkName": "pages/login"
+    "component": "/Users/fly/Desktop/pc/pages/login.vue",
+    "chunkName": "pages/login",
+    "_name": "_2c2a172e"
   },
   {
     "name": "logistics",
     "path": "/logistics",
-    "component": "/Volumes/u/pc/pages/logistics.vue",
-    "chunkName": "pages/logistics"
+    "component": "/Users/fly/Desktop/pc/pages/logistics.vue",
+    "chunkName": "pages/logistics",
+    "_name": "_4f1673da"
   },
   {
     "name": "mobile_login",
     "path": "/mobile_login",
-    "component": "/Volumes/u/pc/pages/mobile_login/index.vue",
-    "chunkName": "pages/mobile_login/index"
+    "component": "/Users/fly/Desktop/pc/pages/mobile_login/index.vue",
+    "chunkName": "pages/mobile_login/index",
+    "_name": "_03a9d882"
   },
   {
     "name": "order_confirm",
     "path": "/order_confirm",
-    "component": "/Volumes/u/pc/pages/order_confirm.vue",
-    "chunkName": "pages/order_confirm"
+    "component": "/Users/fly/Desktop/pc/pages/order_confirm.vue",
+    "chunkName": "pages/order_confirm",
+    "_name": "_260b3e62"
   },
   {
     "name": "order_detail",
     "path": "/order_detail",
-    "component": "/Volumes/u/pc/pages/order_detail.vue",
-    "chunkName": "pages/order_detail"
+    "component": "/Users/fly/Desktop/pc/pages/order_detail.vue",
+    "chunkName": "pages/order_detail",
+    "_name": "_e1506fdc"
   },
   {
     "name": "payment",
     "path": "/payment",
-    "component": "/Volumes/u/pc/pages/payment.vue",
-    "chunkName": "pages/payment"
+    "component": "/Users/fly/Desktop/pc/pages/payment.vue",
+    "chunkName": "pages/payment",
+    "_name": "_a076f2f4"
   },
   {
     "name": "refund",
     "path": "/refund",
-    "component": "/Volumes/u/pc/pages/refund.vue",
-    "chunkName": "pages/refund"
+    "component": "/Users/fly/Desktop/pc/pages/refund.vue",
+    "chunkName": "pages/refund",
+    "_name": "_5841c428"
   },
   {
     "name": "refund_goods",
     "path": "/refund_goods",
-    "component": "/Volumes/u/pc/pages/refund_goods.vue",
-    "chunkName": "pages/refund_goods"
+    "component": "/Users/fly/Desktop/pc/pages/refund_goods.vue",
+    "chunkName": "pages/refund_goods",
+    "_name": "_51ab4eff"
   },
   {
     "name": "rule",
     "path": "/rule",
-    "component": "/Volumes/u/pc/pages/rule.vue",
-    "chunkName": "pages/rule"
+    "component": "/Users/fly/Desktop/pc/pages/rule.vue",
+    "chunkName": "pages/rule",
+    "_name": "_1f84bfac"
   },
   {
     "name": "shoppingCart",
     "path": "/shoppingCart",
-    "component": "/Volumes/u/pc/pages/shoppingCart.vue",
-    "chunkName": "pages/shoppingCart"
+    "component": "/Users/fly/Desktop/pc/pages/shoppingCart.vue",
+    "chunkName": "pages/shoppingCart",
+    "_name": "_29dbc758"
   },
   {
     "path": "/user",
-    "component": "/Volumes/u/pc/pages/user.vue",
+    "component": "/Users/fly/Desktop/pc/pages/user.vue",
     "chunkName": "pages/user",
     "children": [
       {
         "name": "user",
         "path": "",
-        "component": "/Volumes/u/pc/pages/user/index.vue",
-        "chunkName": "pages/user/index"
+        "component": "/Users/fly/Desktop/pc/pages/user/index.vue",
+        "chunkName": "pages/user/index",
+        "_name": "_18ea9984"
       },
       {
         "name": "user-address_list",
         "path": "address_list",
-        "component": "/Volumes/u/pc/pages/user/address_list.vue",
-        "chunkName": "pages/user/address_list"
+        "component": "/Users/fly/Desktop/pc/pages/user/address_list.vue",
+        "chunkName": "pages/user/address_list",
+        "_name": "_4ea944cd"
       },
       {
         "name": "user-balance",
         "path": "balance",
-        "component": "/Volumes/u/pc/pages/user/balance.vue",
-        "chunkName": "pages/user/balance"
+        "component": "/Users/fly/Desktop/pc/pages/user/balance.vue",
+        "chunkName": "pages/user/balance",
+        "_name": "_0cb0ff48"
       },
       {
         "name": "user-collect",
         "path": "collect",
-        "component": "/Volumes/u/pc/pages/user/collect.vue",
-        "chunkName": "pages/user/collect"
+        "component": "/Users/fly/Desktop/pc/pages/user/collect.vue",
+        "chunkName": "pages/user/collect",
+        "_name": "_cdfbcad4"
       },
       {
         "name": "user-messageCenter",
         "path": "messageCenter",
-        "component": "/Volumes/u/pc/pages/user/messageCenter.vue",
-        "chunkName": "pages/user/messageCenter"
+        "component": "/Users/fly/Desktop/pc/pages/user/messageCenter.vue",
+        "chunkName": "pages/user/messageCenter",
+        "_name": "_7b4888a8"
       },
       {
         "name": "user-myCoupon",
         "path": "myCoupon",
-        "component": "/Volumes/u/pc/pages/user/myCoupon.vue",
-        "chunkName": "pages/user/myCoupon"
+        "component": "/Users/fly/Desktop/pc/pages/user/myCoupon.vue",
+        "chunkName": "pages/user/myCoupon",
+        "_name": "_6acb9936"
       },
       {
         "name": "user-orderList",
         "path": "orderList",
-        "component": "/Volumes/u/pc/pages/user/orderList.vue",
-        "chunkName": "pages/user/orderList"
+        "component": "/Users/fly/Desktop/pc/pages/user/orderList.vue",
+        "chunkName": "pages/user/orderList",
+        "_name": "_9a58af10"
       },
       {
         "name": "user-userCoupon",
         "path": "userCoupon",
-        "component": "/Volumes/u/pc/pages/user/userCoupon.vue",
-        "chunkName": "pages/user/userCoupon"
+        "component": "/Users/fly/Desktop/pc/pages/user/userCoupon.vue",
+        "chunkName": "pages/user/userCoupon",
+        "_name": "_1f3da195"
       }
-    ]
+    ],
+    "_name": "_3bbdd60a"
   },
   {
     "name": "wxPay",
     "path": "/wxPay",
-    "component": "/Volumes/u/pc/pages/wxPay.vue",
-    "chunkName": "pages/wxPay"
+    "component": "/Users/fly/Desktop/pc/pages/wxPay.vue",
+    "chunkName": "pages/wxPay",
+    "_name": "_220b3807"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "/Volumes/u/pc/pages/index.vue",
-    "chunkName": "pages/index"
+    "component": "/Users/fly/Desktop/pc/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_20435152"
   },
   {
     "name": "goods_detail-id",
     "path": "/goods_detail/:id",
-    "component": "/Volumes/u/pc/pages/goods_detail/_id/index.vue",
-    "chunkName": "pages/goods_detail/_id/index"
+    "component": "/Users/fly/Desktop/pc/pages/goods_detail/_id/index.vue",
+    "chunkName": "pages/goods_detail/_id/index",
+    "_name": "_5384c678"
   }
 ]

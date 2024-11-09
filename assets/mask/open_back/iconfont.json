@@ -6,6 +6,13 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "41617897",
+      "name": "PAD_HOOD-1",
+      "font_class": "PAD_HOOD-1",
+      "unicode": "e77e",
+      "unicode_decimal": 59262
+    },
+    {
       "icon_id": "40193784",
       "name": "STITCHING-2",
       "font_class": "STITCHING-2",

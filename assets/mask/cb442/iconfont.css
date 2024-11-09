@@ -1,9 +1,9 @@
 @font-face {
   font-family: "figure"; /* Project id 4316818 */
-  src: url('iconfont.woff2?t=1714963365320') format('woff2'),
-       url('iconfont.woff?t=1714963365320') format('woff'),
-       url('iconfont.ttf?t=1714963365320') format('truetype'),
-       url('iconfont.svg?t=1714963365320#figure') format('svg');
+  src: url('iconfont.woff2?t=1729174652013') format('woff2'),
+       url('iconfont.woff?t=1729174652013') format('woff'),
+       url('iconfont.ttf?t=1729174652013') format('truetype'),
+       url('iconfont.svg?t=1729174652013#figure') format('svg');
 }
 
 .figure {
@@ -15,11 +15,19 @@
 }
 
 .figure-STITCHING-2:before {
-  content: "\e75f";
+  content: "\e78b";
 }
 
 .figure-STITCHING-1:before {
-  content: "\e760";
+  content: "\e78c";
+}
+
+.figure-LEATHER_1-2:before {
+  content: "\e76f";
+}
+
+.figure-LEATHER_1-1:before {
+  content: "\e770";
 }
 
 .figure-STITCHING-3:before {
@@ -112,14 +120,6 @@
 
 .figure-LEATHER_2-3:before {
   content: "\e6a1";
-}
-
-.figure-LEATHER_1-2:before {
-  content: "\e6a3";
-}
-
-.figure-LEATHER_1-1:before {
-  content: "\e6a4";
 }
 
 .figure-LEATHER_1-4:before {

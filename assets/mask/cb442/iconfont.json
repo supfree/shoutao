@@ -6,18 +6,32 @@
   "description": "",
   "glyphs": [
     {
-      "icon_id": "40193586",
+      "icon_id": "42157519",
       "name": "STITCHING-2",
       "font_class": "STITCHING-2",
-      "unicode": "e75f",
-      "unicode_decimal": 59231
+      "unicode": "e78b",
+      "unicode_decimal": 59275
     },
     {
-      "icon_id": "40193585",
+      "icon_id": "42157518",
       "name": "STITCHING-1",
       "font_class": "STITCHING-1",
-      "unicode": "e760",
-      "unicode_decimal": 59232
+      "unicode": "e78c",
+      "unicode_decimal": 59276
+    },
+    {
+      "icon_id": "40769377",
+      "name": "LEATHER_1-2",
+      "font_class": "LEATHER_1-2",
+      "unicode": "e76f",
+      "unicode_decimal": 59247
+    },
+    {
+      "icon_id": "40769376",
+      "name": "LEATHER_1-1",
+      "font_class": "LEATHER_1-1",
+      "unicode": "e770",
+      "unicode_decimal": 59248
     },
     {
       "icon_id": "40193584",
@@ -179,20 +193,6 @@
       "font_class": "LEATHER_2-3",
       "unicode": "e6a1",
       "unicode_decimal": 59041
-    },
-    {
-      "icon_id": "37973512",
-      "name": "LEATHER_1-2",
-      "font_class": "LEATHER_1-2",
-      "unicode": "e6a3",
-      "unicode_decimal": 59043
-    },
-    {
-      "icon_id": "37973511",
-      "name": "LEATHER_1-1",
-      "font_class": "LEATHER_1-1",
-      "unicode": "e6a4",
-      "unicode_decimal": 59044
     },
     {
       "icon_id": "37973510",

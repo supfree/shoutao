@@ -1,8 +1,8 @@
 @font-face {
   font-family: "figure"; /* Project id 4511901 */
-  src: url('iconfont.woff2?t=1714962924672') format('woff2'),
-       url('iconfont.woff?t=1714962924672') format('woff'),
-       url('iconfont.ttf?t=1714962924672') format('truetype');
+  src: url('iconfont.woff2?t=1729523405344') format('woff2'),
+       url('iconfont.woff?t=1729523405344') format('woff'),
+       url('iconfont.ttf?t=1729523405344') format('truetype');
 }
 
 .figure {
@@ -14,11 +14,35 @@
 }
 
 .figure-STITCHING-2:before {
-  content: "\e764";
+  content: "\e790";
 }
 
 .figure-STITCHING-1:before {
-  content: "\e765";
+  content: "\e78f";
+}
+
+.figure-KIP_PALM_LINER-2:before {
+  content: "\e779";
+}
+
+.figure-KIP_PALM_LINER-3:before {
+  content: "\e77a";
+}
+
+.figure-KIP_PALM_LINER-4:before {
+  content: "\e778";
+}
+
+.figure-KIP_PALM_LINER-1:before {
+  content: "\e77b";
+}
+
+.figure-LEATHER_1-2:before {
+  content: "\e772";
+}
+
+.figure-LEATHER_1-1:before {
+  content: "\e773";
 }
 
 .figure-STITCHING-3:before {
@@ -211,14 +235,6 @@
 
 .figure-LEATHER_1-3:before {
   content: "\e70b";
-}
-
-.figure-LEATHER_1-2:before {
-  content: "\e709";
-}
-
-.figure-LEATHER_1-1:before {
-  content: "\e70a";
 }
 
 .figure-LEATHER_2-3:before {
